@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.5" client="site" method="upgrade">
+	<name>mod_weblinks</name>
+	<author>Joomla! Project</author>
+	<creationDate>2021-11-06</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>4.0.1</version>
+	<description>MOD_WEBLINKS_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Module\Weblinks</namespace>
+	<files>
+		<file module="mod_weblinks">mod_weblinks.php</file>
+<file>mod_weblinks.xml</file>
+<folder>src</folder>
+<folder>tmpl</folder>
+		<file module="mod_weblinks">mod_weblinks.php</file>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/mod_weblinks.ini</language>
+<language tag="en-GB">en-GB/mod_weblinks.sys.ini</language>
+	</languages>
+	<help key="Extensions_Module_Manager_Weblinks" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="catid"
+					type="category"
+					label="JCATEGORY"
+					extension="com_weblinks"
+					required="true"
+				/>
+
+				<field
+					name="groupby"
+					type="radio"
+					label="MOD_WEBLINKS_FIELD_GROUPBY_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="groupby_showtitle"
+					type="radio"
+					label="MOD_WEBLINKS_FIELD_GROUPBYSHOWTITLE_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="1"
+					showon="groupby:1"
+					>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="groupby_ordering"
+					type="list"
+					label="MOD_WEBLINKS_FIELD_GROUPBYORDERING_LABEL"
+					default="c.lft"
+					showon="groupby:1"
+					>
+					<option value="c.title">JGLOBAL_TITLE</option>
+					<option value="c.lft">MOD_WEBLINKS_FIELD_VALUE_ORDER</option>
+				</field>
+
+				<field
+					name="groupby_direction"
+					type="list"
+					label="MOD_WEBLINKS_FIELD_GROUPBYDIRECTION_LABEL"
+					default="asc"
+					showon="groupby:1"
+					>
+					<option value="asc">MOD_WEBLINKS_FIELD_VALUE_ASCENDING</option>
+					<option value="desc">MOD_WEBLINKS_FIELD_VALUE_DESCENDING</option>
+				</field>
+
+				<field
+					name="groupby_columns"
+					type="list"
+					label="MOD_WEBLINKS_FIELD_COLUMNS_LABEL"
+					default="3"
+					>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="6">J6</option>
+				</field>
+
+				<field
+					name="count"
+					type="text"
+					label="MOD_WEBLINKS_FIELD_COUNT_LABEL"
+					default="5"
+				/>
+
+				<field
+					name="ordering"
+					type="list"
+					label="MOD_WEBLINKS_FIELD_ORDERING_LABEL"
+					default="title"
+					>
+					<option value="title">JGLOBAL_TITLE</option>
+					<option value="order">MOD_WEBLINKS_FIELD_VALUE_ORDER</option>
+					<option value="hits">MOD_WEBLINKS_FIELD_VALUE_HITS</option>
+				</field>
+
+				<field
+					name="direction"
+					type="list"
+					label="MOD_WEBLINKS_FIELD_ORDERDIRECTION_LABEL"
+					default="asc"
+					>
+					<option value="asc">MOD_WEBLINKS_FIELD_VALUE_ASCENDING</option>
+					<option value="desc">MOD_WEBLINKS_FIELD_VALUE_DESCENDING</option>
+				</field>
+
+				<field
+					name="follow"
+					type="list"
+					label="MOD_WEBLINKS_FIELD_FOLLOW_LABEL"
+					default="follow"
+					>
+					<option value="follow">MOD_WEBLINKS_FIELD_VALUE_FOLLOW</option>
+					<option value="nofollow">MOD_WEBLINKS_FIELD_VALUE_NOFOLLOW</option>
+				</field>
+
+				<field
+					name="description"
+					type="radio"
+					label="MOD_WEBLINKS_FIELD_DESCRIPTION_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="hits"
+					type="radio"
+					label="MOD_WEBLINKS_FIELD_HITS_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					class="form-select"
+					validate="moduleLayout"
+				/>
+
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					rows="3"
+					validate="CssIdentifier"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					default="1"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					default="900"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

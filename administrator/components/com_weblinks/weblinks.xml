@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.5" method="upgrade">
+	<name>com_weblinks</name>
+	<author>Joomla! Project</author>
+	<creationDate>2021-11-06</creationDate>
+	<copyright>(C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>4.0.1</version>
+	<description>COM_WEBLINKS_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<namespace path="src">Joomla\Component\Weblinks</namespace>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/install.mysql.sql</file>
+			<file charset="utf8" driver="postgresql">sql/install.postgresql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/uninstall.mysql.sql</file>
+			<file charset="utf8" driver="postgresql">sql/uninstall.postgresql.sql</file>
+		</sql>
+	</uninstall>
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+			<schemapath type="postgresql">sql/updates/postgresql</schemapath>
+		</schemas>
+	</update>
+
+	<media folder="media/com_weblinks" destination="com_weblinks">
+		<folder>js</folder>
+	</media>
+
+	<files folder="components/com_weblinks">
+		<folder>forms</folder>
+<folder>helpers</folder>
+<folder>src</folder>
+<folder>tmpl</folder>
+	</files>
+	<languages folder="language">
+		<language tag="de-DE">de-DE/com_weblinks.ini</language>
+<language tag="de-DE">de-DE/com_weblinks.sys.ini</language>
+<language tag="en-GB">en-GB/com_weblinks.ini</language>
+	</languages>
+	<administration>
+		<menu img="class:weblinks">com_weblinks</menu>
+		<submenu>
+			<!--
+				Note that all & must be escaped to &amp; for the file to be valid
+				XML and be parsed by the installer
+			-->
+			<menu link="option=com_weblinks" view="links" img="class:weblinks"
+				alt="Weblinks/Links">com_weblinks_links</menu>
+			<menu link="option=com_categories&amp;extension=com_weblinks"
+				view="categories" img="class:weblinks-cat" alt="Weblinks/Categories">com_weblinks_categories</menu>
+			<menu link="option=com_fields&amp;view=fields&amp;context=com_weblinks.weblink"
+				  alt="Weblinks/Fields">com_weblinks_fields</menu>
+			<menu link="option=com_fields&amp;view=groups&amp;context=com_weblinks.weblink"
+				  alt="Weblinks/Field Groups">com_weblinks_field_groups</menu>
+		</submenu>
+		<files folder="administrator/components/com_weblinks">
+			<file>access.xml</file>
+<file>config.xml</file>
+<folder>forms</folder>
+<folder>helpers</folder>
+<file>script.php</file>
+<folder>services</folder>
+<folder>sql</folder>
+<folder>src</folder>
+<folder>tmpl</folder>
+<file>weblinks.xml</file>
+		</files>
+		<languages folder="administrator/language">
+			<language tag="en-GB">en-GB/com_weblinks.ini</language>
+<language tag="en-GB">en-GB/com_weblinks.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
+

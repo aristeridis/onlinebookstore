@@ -1,0 +1,316 @@
+ .form-horizontal .control-label {
+      text-align: left;
+}
+.well{
+    box-shadow: none;
+}
+ //Login Form_________________________________________________________________
+ .login{
+    input{
+        padding: 10px 5px;
+        font-size: 14px;
+        color:@textColor;
+        .border(1px @colorBorder);
+        .borderRadius(3px);
+    }
+    .lab_rem{
+        label{
+            float: left;
+            margin-right: 5px;
+            color: @colorTitle;
+        }
+    }
+    .block_login{
+        label{
+            color: @colorTitle;
+        }
+        input{
+            -webkit-box-shadow: inset 0 0 0 50px @colorWhite !important;
+            -webkit-text-fill-color: @textColor !important;
+            color: @textColor!important;
+        }
+    }
+    button{
+         .transition;
+        &:hover{
+            .transition;
+        }
+    }
+ }
+ul.nav_bar_log{
+      border-bottom: 0px solid #ddd;
+    li{
+        a{
+            padding: 0;
+            .border(0);
+        }
+    }
+}
+ //End Login Form______________________________________________________________
+ //User Registration Form_______________________________________________________
+.registration{
+    input{
+        padding: 10px 5px;
+        font-size: 14px;
+        color:@textColor;
+        .border(1px @colorBorder);
+        .borderRadius(3px);
+    }
+    label{
+        color: @colorTitle;
+    }
+}
+legend{
+    color: @colorTitle;
+}
+.reg{
+    margin: 20px 0 0;
+    a.btn{
+        padding: 6px 5px;
+        font-size: 14px;
+        color:@colorWhite;
+        background: @mainColor;
+        .border(1px @colorBorder);
+        .borderRadius(3px);
+        .transition;
+        &:hover{
+            background: @mainColor - #222;
+            .transition;
+        }
+    }
+    button{
+         .transition;
+        &:hover{
+            .transition;
+        }
+    }
+}
+//End User Registration Form___________________________________________________
+//User Reminder Form, Password reset__________________________________________
+.remind, .reset{
+    label{
+         color: @colorTitle;
+    }
+    input{
+        padding: 10px 5px;
+        font-size: 14px;
+        color:@textColor;
+        .border(1px @colorBorder);
+        .borderRadius(3px);
+        @media (max-width: 767px){
+             margin-bottom: 10px;
+        }
+    }
+    button{
+         .transition;
+        &:hover{
+            .transition;
+        }
+    }
+}
+//End User Reminder Form, End Password reset______________________________
+.chzn-results{
+    li.highlighted{
+        background: @mainColor !important;
+    }
+}
+.page-header {
+  padding-bottom: 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+#limit{
+    option{
+        &:hover{
+            background: @mainColor !important;
+        }
+    }
+}
+//End User Reminder Form, End Password reset______________________________
+//Category contact 1_______________________________________________________
+.contact-category{
+    .pull-right{
+        float: none !important;
+        text-align: left !important;
+    }
+    .label-warning{
+        background: @mainColor;
+    }
+    label{
+        display: block;
+    }
+    input{
+        padding: 10px 5px;
+        margin: 0 0 10px 0;
+        font-size: 14px;
+        color:@textColor;
+        .border(1px @colorBorder);
+        .borderRadius(3px);
+    }
+    span.label-warning{
+          display: inline-block;
+          padding: 10px 5px;
+          color: @colorWhite;
+         .borderRadius(3px);
+          margin: 0 15px 15px 0;
+    }
+    ul{
+        list-style:none;
+    }
+}
+//End Category contact 1____________________________________________________
+.category{
+    width: 100%;
+}
+.map{
+    width: 100%  !important;
+}
+//End Category contact 1____________________________________________________
+//Single contact 1___________________________________________________________
+.contact-form{
+    input, #jform_contact_message{
+        width: 50%;
+        padding: 10px 5px;
+        margin: 0 0 10px 0;
+        font-size: 14px;
+        color:@textColor;
+        .border(1px @colorBorder);
+        .borderRadius(3px);
+    }
+    legend, label{
+        color: @colorTitle;
+    }
+    .send_co{
+        margin: 0 0 15px 0;
+        label{
+          margin: 0px 7px 0 0;
+        }
+    }
+    #jform_contact_email_copy{
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+    button{
+         .transition;
+        &:hover{
+            .transition;
+        }
+    }
+}
+.contact-address{
+        dt{
+            width: auto;
+        }
+        dd{
+            margin-left: 0px;
+        }
+}
+.snd_m{
+    label{
+        float: left;
+        padding: 0 5px 0 0;
+    }
+    .controls{
+        input#jform_contact_email_copy{
+            margin-top: 4px;
+        }
+    }
+}
+//End Single contact 1_______________________________________________________
+//Archived Content__________________________________________________________
+.archive{
+    button{
+        padding: 1px 12px;
+    }
+}
+#contentBox {
+    margin-top: 20px;
+}
+.content-category .hasTooltip a.btn {
+    .input;
+}
+
+
+.header_style(
+@text-transform: uppercase,
+@font-family: inherit,
+@font-weight: normal,
+@font-size: 25px,
+@color: @colorTitle
+)
+{
+font-family: @font-family;
+text-transform: @text-transform;
+ font-weight: @font-weight;
+ font-size: @font-size;
+ line-height: @font-size;
+color: @color ;
+}
+
+
+#josForm td input:not([type="radio"]),
+    #josForm td input:not([type="file"]),
+    #josForm td textarea
+    {
+    padding: 10px 5px;
+    font-size: 14px;
+    color:@textColor;
+    .border(1px @colorBorder);
+    margin-bottom: 10px;
+    .borderRadius(0px);
+    }
+
+ #josForm{
+
+    .componentheading{
+        .header_style;
+    }
+
+    th{
+    .header_style(
+    uppercase,
+    inherit,
+    normal,
+    22px,
+    @colorTitle
+    );
+    }
+
+    .k2AccountPage table.admintable td{
+
+      &.key,
+      &.paramlist_key{
+      font-size: 14px;
+      padding-right: 5px;
+      border: none;
+      }
+
+
+    }
+
+    input[type="radio"]{
+    margin-left: 0;
+    margin-right: 0px;
+    position: static;
+    }
+
+    .k2AccountPage table tr td{
+        background-color: #f6f6f6;
+    }
+
+
+    .td.key{
+     padding: 0px 6px;
+     }
+
+    textarea,
+    input{
+    margin-bottom: 10px;
+    }
+
+ }
+
+ button.validate{
+    padding: 5px 10px;
+ }

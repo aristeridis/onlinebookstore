@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="search" method="upgrade">
+	<name>plg_search_weblinks</name>
+	<author>Joomla! Project</author>
+	<creationDate>2021-11-06</creationDate>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>4.0.1</version>
+	<description>PLG_SEARCH_WEBLINKS_XML_DESCRIPTION</description>
+	<files>
+		<folder>language</folder>
+<file plugin="weblinks">weblinks.php</file>
+<file>weblinks.xml</file>
+	</files>
+	<languages folder="language">
+		
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="search_limit"
+					type="text"
+					label="JFIELD_PLG_SEARCH_SEARCHLIMIT_LABEL"
+					description="JFIELD_PLG_SEARCH_SEARCHLIMIT_DESC"
+					default="50"
+					size="5"
+				/>
+
+				<field
+					name="search_content"
+					type="radio"
+					label="JFIELD_PLG_SEARCH_ALL_LABEL"
+					description="JFIELD_PLG_SEARCH_ALL_DESC"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="0">JOFF</option>
+					<option value="1">JON</option>
+				</field>
+
+				<field
+					name="search_archived"
+					type="radio"
+					label="JFIELD_PLG_SEARCH_ARCHIVED_LABEL"
+					description="JFIELD_PLG_SEARCH_ARCHIVED_DESC"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="0">JOFF</option>
+					<option value="1">JON</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

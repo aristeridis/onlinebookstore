@@ -1,0 +1,1570 @@
+/**
+ * Changelog
+ *
+ * @package         Advanced Module Manager
+ *
+ * @author          Peter van Westen <info@regularlabs.com>
+ * @link            https://www.regularlabs.com
+ * @copyright       Copyright © 2016 Regular Labs - All Rights Reserved
+ * @license         http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+/**
+ * + Addition
+ * ! Removal
+ * ^ Change
+ * # Fix
+ */
+
+05-Nov-2018 : v7.8.6
+ ^ Changes use of RL toggler scripts to use Joomla core showon scripts
+ ^ Improves way Regular Labs Library scripts and styles are loaded on admin side
+ ^ Refactors some code
+ # Fixes issue with menu items with types 'separator', 'heading', 'alias' and 'url' not being selectable (meaning you can use the “Also on Child Items” option)
+
+30-Oct-2018 : v7.8.5
+ # Fixes issue with fatal error about Too few arguments passed to ShowOn::show
+
+30-Oct-2018 : v7.8.4
+ # Fixes issue with fatal error about ShowOn not found
+
+30-Oct-2018 : v7.8.3
+ ^ Changes use of RL toggler scripts to use Joomla core showon scripts
+ ^ Updates translations: de-DE, tr-TR
+
+23-Oct-2018 : v7.8.2
+ # Fixes issue with user and usergroup assignments not showing
+
+23-Oct-2018 : v7.8.1
+ ^ Changes ordering of assignment types
+ ^ Improves menu item select field
+ # Fixes broken link in settings
+
+19-Oct-2018 : v7.8.0
+ + Adds link to core permissions in global settings
+ ! Removes deprecated helper files from the Regular Labs Library
+ ! Removes old Joomla 3.6 (and lower) compatibility code
+ ^ Changes minimum requirement from Joomla 3.7.0 to Joomla 3.8.0
+ ^ Rearranges plugin options
+ ^ Updates Mobile Detect Library to 2.8.32
+ ^ Updates translations: sv-SE
+ # Fixes issue with asset rules sometimes not being correct
+ # Fixes issue with confirm dialog on close buttons on assignments not opening up the options
+ # Fixes issue with some missing language strings
+ # [PRO] Fixes issue with K2 category assignment not working on empty K2 item edit forms where category is preselected
+
+13-Jul-2018 : v7.7.1
+ ^ Changed what list data is visible in mobile view
+ # [PRO] Fixes issue with form not working correctly when K2 has loads of empty tags
+
+01-Jul-2018 : v7.7.0
+ + Adds ability to create an admin menu item to the Advanced Module Manager
+ + Adds ability to place modules in (simple) categories which can be used to filter by in the list view
+ # Fixes issue with order by Menu Items not working
+
+07-May-2018 : v7.6.3
+ ^ Updates translations: nl-NL
+ # Fixes issue with error about StringHelper not found when copying modules
+ # Fixes issue with invalid saved (negative) date values breaking the edit page
+
+26-Apr-2018 : v7.6.2
+ ^ Updates code to match latest changes in the core module manager
+ ^ Updates translations: sv-SE
+ # Fixes issue with multiselect fields with large selections sometimes not loading
+ # Fixes issue with unpublished/trashed items in select lists not getting styled correctly
+ # [PRO] Fixes issue with PHP conditions not working
+ # [PRO] Fixes issue with php conditions causing errors when used multiple times on one page load
+
+01-Apr-2018 : v7.6.1
+ # Fixes issue with article/category based assignments no longer working
+
+30-Mar-2018 : v7.6.0
+ + Adds option to switch off handling of module edit links on the frontend (so these will use the core module manager)
+ + [PRO] Adds ability to reference the current module in the PHP assignment via $module
+
+08-Mar-2018 : v7.5.1
+ ^ Updates translations: sv-SE
+ # Fixes issue with missing language field in admin modules
+ # [PRO] Fixes issue with HikaShop product page type condition not working
+
+19-Jan-2018 : v7.5.0
+ ^ Changes minimum requirement from Joomla 3.6.0 to Joomla 3.7.0
+ ^ Updates Mobile Detect Library to 2.8.30
+ ^ Updates translations: de-DE, nb-NO
+ ^ [PRO] Updates browser list
+ # Fixes issue with untranslated language strings on custom module tabs
+ # Fixes some javascript issues in admin side on Joomla 3.7.0
+ # [PRO] Fixes issue with browser assignment not working on some Internet Explorer 11 browsers
+ # [PRO] Fixes issue with incorrect language tags on some HikaShop pagetypes
+
+04-Dec-2017 : v7.4.1
+ ^ Updates translations: ru-RU
+ # Fixes issue with multi-select fields not showing on some setups
+ # [PRO] Fixes issue with HikaShop page type assignments still not working correctly
+
+28-Nov-2017 : v7.4.0
+ + Adds extra notes tab
+ ! Removes Options button from toolbar in module edit view
+ ! Removes legacy code for old extensions using old ModuleHelper overrides
+ ^ Updates Mobile Detect Library to 2.8.26
+ # Fixes issue with date assignments being enabled when publishing a module
+ # Fixes issue with some module edit tabs not getting loaded in exotic cases
+ # [PRO] Fixes issue with HikaShop page type assignments not working correctly
+
+10-Oct-2017 : v7.2.2
+ ^ Improves loading speed of module edit page by loading select lists through ajax
+ ^ Updates translations: bg-BG, da-DK, nb-NO
+ # Fixes issue with multi-select fields not showing correctly
+ # Fixes issue with some multi-select fields not storing the selection
+ # [PRO] Fixes issue with IP range conditions not working
+ # [PRO] Fixes issue with some locations in Mexico City not matching region 'Distrito Federal'
+
+05-Sep-2017 : v7.2.1
+ # Fixes issue with menu assignments not working when using aliases
+ # Fixes issue with menu assignments not working when using aliases
+ # Fixes issue with some assignments return false positives
+
+04-Sep-2017 : v7.2.0
+ + Adds ability to collect advanced parameters without using cache (usage for other extensions)
+ + Adds time fields in date from/to calendar selection
+ + [PRO] Fixes issue with Joomla updater not seeing new Pro versions after upgrading from Free to Pro
+ ^ Updates Mobile Detect Library to 2.8.25
+ ^ Updates translations: cs-CZ, es-ES
+ # [PRO] Fixes issue with fatal error when using RedShop 2.0
+
+22-Jul-2017 : v7.1.6
+ # Fixes issue with Regular Labs plugins no longer being run on category blog pages
+
+19-Jul-2017 : v7.1.5
+ + Added new EasyBlog page types
+ ^ Improves the way the system plugin methods gets called
+ ^ Updates translations: cs-CZ, et-EE, id-ID, it-IT, lv-LV
+ # [PRO] Fixes issue with error on frontend when using php assignments and there is a write permission issue in the tmp folder
+
+30-May-2017 : v7.1.4
+ # [J3.7] Fixes issue with color not being saved when setting in the list
+
+02-May-2017 : v7.1.3
+ # [PRO] Fixes issue with VirtueMart Product assignments throwing an error
+
+26-Apr-2017 : v7.1.2
+ # Fixes issue with disabled/blocked users not appearing in user assignment field
+ # Fixes issue with potential undefined offset error
+ # Fixes issue with the site/administrator switch option not showing in the list view
+ # [PRO] Fixes issue with K2 tag page type assignment not working
+
+18-Feb-2017 : v7.1.1
+ # Fixes issue with match all usergroups setting not working
+ # Fixes issue with php notice about an undefined property $advancedparams on some setups
+ # Fixes issue with some select fields not being shows
+ # Fixes issue with websites using certain encodings breaking
+ # [PRO] Fixes issue with pdf and other non-html pages potentially breaking on some setups
+
+13-Feb-2017 : v7.1.0
+ + Adds option to only pass Usergroup assignment if user has all usergroups from selection
+ # Fixes issue with frontend editing not using the Advanced Module Manager layout
+ # Fixes issue with raw/ajax calls potentially breaking
+
+07-Feb-2017 : v7.0.6
+ # Fixes issue with updates for other 3rd party extensions not working
+
+07-Feb-2017 : v7.0.5
+ # Fixes issue with event triggers not being initiated upon module actions (save, delete, etc)
+ # Fixes issue with some browser assignments not working
+ # [PRO] Fixes issue with updates via core installer sometimes failing
+
+31-Jan-2017 : v7.0.4
+ ^ Changes minimum requirement from Joomla 3.4.1 to Joomla 3.6.0
+ # Fixes issue with Mobile selection in Browser assignment not working
+ # Fixes issue with URL assignments always being interpreted as Regular Expressions
+ # Fixes issue with potential fatal error concerning RL_RegEx
+
+27-Jan-2017 : v7.0.3
+ # Fixes issue with potential fatal errors when updating from older version
+
+25-Jan-2017 : v7.0.1
+ # Fixes issue with fatal error about undefined method getPluginXMLVersion
+
+25-Jan-2017 : v7.0.0
+ + Adds option to only pass Tags assignment if article contains all tags from selection
+ ^ Changes minimum requirement from php 5.3.13 to php 5.4
+ ^ Completely recoded the extension and Regular Labs Library (now using namespaces)
+ ^ Updates translations: bg-BG, id-ID, nl-NL
+ # Fixes issue with Regular Labs Library plugin causing slowness in administrator when 'Show Help Menu Item' is enabled
+ # Fixes issue with potential error about member function getField() on null on saving modules
+ # [PRO] Fixes issue with Day of the Week condition not working
+ # [PRO] Fixes issue with K2 Item and Pagetype conditions not working
+ # [PRO] Fixes issue with some assignments not working any more when using VM/Zoo assignments
+
+25-Nov-2016 : v6.2.10
+ ^ Updates translations: de-DE
+ # Fixes issue with order by language in list view throwing error
+
+20-Nov-2016 : v6.2.9
+ ^ Improves compatibility with J3.7 (nightly build)
+ # Fixes issues with page breaking when Regular Labs Library folder is missing
+
+14-Nov-2016 : v6.2.8
+ # Fixes issue with comma separated list values not being converted to select list selections when changing max list count
+ # [PRO] Fixes issue with browser agent check giving php notices
+
+10-Nov-2016 : v6.2.7
+ # [PRO] Fixes issue with ipads passing as mobile phone device
+
+24-Oct-2016 : v6.2.6
+ # Fixes issue with Access Level selection not showing as multiselect
+ # Fixes issue with commas and bars in text area field selections not working
+ # Fixes issue with publish up/down fields getting pre-filled
+ # Updates agent detection scripts to v2.8.22
+
+06-Oct-2016 : v6.2.5
+ + Adds translations: nl-BE
+ ^ Updated code to include latest fixes for core module manager for Joomla 3.6.3
+ ^ Updates translations: pt-PT
+ # Fixes issue with Hide if Empty option seeing modules with images as empty
+ # Fixes issue with assignments not working on raw/ajax views
+ # Fixes issue with potential php notices when using the menu item assignments
+
+05-Sep-2016 : v6.2.4
+ # Fixes issue with administrator returning blank on some setups
+
+01-Sep-2016 : v6.2.3
+ # Fixes issue with assignment to tags not working on tag pages
+ # Updates browser detection scripts
+ # Updates list of browsers in Browser Assignment
+
+17-Aug-2016 : v6.2.2
+ ! Removed some testing code
+ # Fixes issue with php notice about undefined property $advancedparams in some cases
+
+10-Aug-2016 : v6.2.1
+ # Fixes issue with assigned language showing package name instead of language name in list view
+ # Fixes issue with php notice about undefined property $advancedparams in some cases
+ # Fixes issue with replacement for frontend edit links causing slowiness in some cases
+
+03-Aug-2016 : v6.2.0
+ + Adds ability to assign by device type (desktop, tablet, mobile) based on agent string
+ ^ Updates translations: tr-TR
+ # Fixes issue with module mirroring sometimes not working correctly
+ # [PRO] Fixes issue with before/after HTML not being placed in some circumstances
+
+20-Jul-2016 : v6.1.5
+ # Fixes issue with new modules opening in core module manager instead of Advanced Module Manager
+ # Fixes issue with texts/urls containing com_modules being replaced with com_advancedmodules in places where it shouldn't
+ # [PRO] Fixes issue with HikaShop category assignments not working
+
+07-Jul-2016 : v6.1.3
+ # Fixes issue with 'Same as other module' option not working correctly
+
+14-Jun-2016 : v6.1.2
+ ^ Updates translations: tr-TR
+
+09-Jun-2016 : v6.1.1
+ ^ Updates translations: tr-TR
+ # Fixes issue with php warnings when using legacy code and php7
+
+07-Jun-2016 : v6.1.0
+ + Adds option to assign by child User Group Levels
+ + [PRO] Adds missing MijShop page type assignments
+ ^ Updates translations: da-DK
+ # Fixes issue with users with frontend edit permissions (but not admin permissions) getting error on editing module
+ # [PRO] Fixes issue with GeoIP assignments having weird layout in Dutch due to issue in language file
+
+13-May-2016 : v6.0.1
+ # Fixes issues with asset rules
+ # [PRO] Fixes issue with VirtueMart category selection being empty when using different languages
+ # [PRO] Fixes some incorrect or missing region names
+
+16-Apr-2016 : v6.0.0
+ ^ Moves from NoNumber to Regular Labs branding
+
+07-Apr-2016 : v5.3.15
+ # Fixes issue with redundant database queries being executed
+ # Works around bug in php 7.0.5 causing assignments to not work
+
+01-Apr-2016 : v5.3.14
+ # Fixes issue with incorrect label for the menu items filter selection
+ # Fixes issue with wrong url on menu item edit buttons with frontend editing on some setups
+
+22-Mar-2016 : v5.3.13
+ # Fixes issue with missing files in v5.3.12
+
+22-Mar-2016 : v5.3.12
+ ^ Moves filters from side bar to search tools
+ ^ Updates some HTML syntax
+ # Fixes incompatibility with new J3.5 Module editor button
+ # Fixes issue with wrong url on menu item edit buttons with frontend editing
+
+05-Mar-2016 : v5.3.11
+ ^ Adds version number to own css/js files
+ # Fixes issue with a wrong file name
+
+01-Feb-2016 : v5.3.10
+ # Fixes issue with core menu item mapping not getting saved correctly
+
+29-Jan-2016 : v5.3.9
+ ! Removes 'Menu Items' column and filter in administrator modules list
+ # Fixes issue with core menu item mapping not getting saved when set to ignore
+ # Fixes issues with Joomla 3.5 and php7 compatibility
+
+20-Jan-2016 : v5.3.8
+ ^ Fixes issues with menu item assignments getting lost when assigned to whole menu (since v5.3.7)
+ # Fixes issues with Joomla 3.5 and php7 compatibility
+
+17-Jan-2016 : v5.3.7
+ + Adds ability to reference the current module in the php assignment via: AdvancedModules::getCurrentModule()
+ ^ Improves reliance on core menu item assignments
+ ^ Improves rendering speed by eliminating duplicate queries
+ ^ Updates list of browsers in Browser Assignment
+ # Fixes issue with not all frontend components being shown in components assignment
+
+09-Dec-2015 : v5.3.6
+ + Adds translations: fi-FI
+ ^ Updates translations: fr-FR
+ # Fixes issue with modules using com_ajax not working when using non-menu assignments
+
+10-Nov-2015 : v5.3.5
+ ^ Improves handling on initialisation of plugin
+
+04-Nov-2015 : v5.3.4
+ # Fixes issue with issue about undefined assignto_languages in list view
+
+03-Nov-2015 : v5.3.3
+ # [PRO] Fixes issue with user selection being reset on install
+
+03-Nov-2015 : v5.3.2
+ # Fixes issue with assignment to tags pages with multiple tag ids not working
+ # Fixes issue with fatal error about undefined function utf8_strtolower
+ # Fixes issue with language sometimes displaying as Undefined in module list
+ # Fixes issue with rss feeds breaking when not having format=fedd in the url
+ # [PRO] Fixes issue with HikaShop product assignment field sometimes causing module edit page to crash
+
+02-Nov-2015 : v5.3.1
+ # Fixes issue with false feed check
+
+22-Oct-2015 : v5.3.0
+ + Adds option to set the event on which the AMM plugin is initialised
+ ^ Updates translations: cs-CZ, es-ES, ja-JP, uk-UA
+ # [PRO] Fixes issue with time assignment not working correctly (adding timezone offset twice)
+
+18-Sep-2015 : v5.2.0
+ ^ Improves returning of following modules in module list
+ ^ Replaces keyword 'Mirror' with 'Same as'
+ # Fixes issue with 'Same as' setting not working
+ # Fixes issue with 'Same as' setting to No not saving
+ # Fixes issue with some feed pages getting rendered as html
+
+14-Sep-2015 : v5.1.3
+ # Fixes issue with fatal error about undefined method getMirrorModuleIdById on some setups using legacy code
+
+14-Sep-2015 : v5.1.2
+ ^ Improves rendering speed of list view
+ ^ Improves rendering speed of mirrored modules
+ ^ Syncs code with Joomla 3.4.4
+ ^ Updates translations: nl-NL
+ # Fixes issue with modules not being found via non-HTML pages (like com_ajax)
+ # Fixes issue with timezone offset not working correctly
+ # [PRO] Fixes issue with Zoo category assignment not working correctly
+ # [PRO] Fixes issue with fatal error when the GeoIP library is not installed
+
+03-Sep-2015 : v5.1.1
+ # Fixes issue with new modules not showing up in list
+
+02-Sep-2015 : v5.1.0
+ + [PRO] Adds option to assign by postal codes and ranges
+ ! [PRO] Removes option to choose Geo Location service
+ ^ Updates translations: uk-UA
+ ^ [PRO] Geo Location now uses service run by NoNumber
+ # Adds link to mirrored module under 'Menu Items' column of mirroring modules in list view
+ # Fixes issue with error about Class NNFrameworkFunctions not found on some setups
+ # Fixes issue with mirroring modules not showing up in filtered list view
+ # Fixes issue with save/close buttons on frontend edit view not working
+ # [PRO] Fixes issue with php error about undefined offset in zoo.php
+
+20-Aug-2015 : v5.0.3
+ + Adds extra public methods in framework to check for isPhone and isTablet
+ # Fixes issue with warning message on GK modules not showing correctly
+
+13-Aug-2015 : v5.0.2
+ ^ Updates translations: cs-CZ
+ # Fixes issue with save buttons not working in admin modules
+ # [PRO] Fixes issue with geo location queries sometimes breaking page
+
+10-Aug-2015 : v5.0.1
+ + Adds back missing menu item assignment filter
+ # Fixes issue with drag 'n' drop ordering not working
+ # Fixes issue with empty trash option not showing when filtering by trashed state
+
+09-Aug-2015 : v5.0.0
+ ! [J2.5] Removes Joomla 2.5 support
+ ^ Changes minimum requirement to Joomla version 3.4.1
+ ^ Implements the sidebar filters instead of search tools button
+ ^ Recodes the installer
+ ^ Updates list of browsers in Browser Assignment
+ # Fixes issue with menu item selection returning blank on some settings using special characters
+ # [PRO] Fixes issue with some Virtuemart assignments not working properly
+
+08-Jun-2015 : v4.22.9
+ # [J2] Fixes issue with missing language string in version notice
+ # [J3] Fixes issue with pagination in module list view not working when using the search field
+
+18-May-2015 : v4.22.8
+ # [J3] Fixes issue date/time assignments not working correctly with some server/timezone settings
+ # [J3] Fixes issue module assignments not working when having MageBridge installed
+
+03-Apr-2015 : v4.22.7
+ # [J2] Fixes issue with errors on installation
+ # [J3] Fixes issue with old module helper checks not working (hopefully last fix)
+
+01-Apr-2015 : v4.22.6
+ # [J3] Fixes issue with error about invalid argument on setups using T3
+ # [J3] Fixes issue with old module helper checks not working
+
+01-Apr-2015 : v4.22.5
+ ^ Updates translations: el-GR
+ ^ [J3.4] Uses new module helper event triggers (unless old 3rd party loads legacy code)
+ # [J3] Fixes some installation issues
+ # [J3][PRO] Fixes issue with assignment to K2 page type tags not working
+
+25-Mar-2015 : v4.22.4
+ # [J3.4] Reverts back to old module helper methods for now, as it caused conflicts with T3, JSN and Helix
+
+19-Mar-2015 : v4.22.3
+ + [J3][PRO] Adds support for K2 v3
+ # Fixes issue with undefined offset errors in some cases
+ # [J3.4] Fixes issue with duplicate menu entries in global configuration side menu
+
+13-Mar-2015 : v4.22.2
+ # [J3.4] Fixes issue with looping happening when using Modules Anywhere
+
+12-Mar-2015 : v4.22.1
+ # [J3.4] Fixes issue with some modules not showing when they should
+
+12-Mar-2015 : v4.22.0
+ ^ Changes the default Show Switch setting to No
+ ^ [J3.4] Refactors code with regards to the module helper (event triggers)
+ # [J3] Fixes issue with close button not unlocking the module
+ # [J3] Fixes issue with frontend component showing up in the Extension Manager Discover page
+
+04-Mar-2015 : v4.21.0
+ + [J3] Adds item ids to item select fields
+ + [J3] Adds support for front end module editing
+ # [J3] Fixes issue with url assignment not working correctly when using the regex option
+ # [J3][PRO] Fixes issue with Zoo frontpage pagetype assignment not working
+
+26-Feb-2015 : v4.20.4
+ # [J3] Fixes issue with error about undefined variable context
+
+25-Feb-2015 : v4.20.3
+ ^ Updates translations: fr-FR
+ ^ [J3.4] Made frontend module edit button link to administrator side to prevent save issues
+
+24-Feb-2015 : v4.20.2
+ # [J3] Fixes issue with Content author assignment giving fatal error
+ # [J3] Fixes issue with error about event_map on save with some modules
+ # [J3] Fixes issue with url assignment not working correctly when having multiple lines
+ # [J3][PRO] Fixes issue with EasyBlog pagetype 'Frontpage Blog Layout' not working
+ # [J3][PRO] Fixes issue with K2 tags assignment not working and giving error
+
+23-Feb-2015 : v4.20.1
+ # [J3] Fixes issue with assignments on items that have no accompanying menu item not working correctly
+ # [J3] Fixes issue with time assignments not working correctly
+
+23-Feb-2015 : v4.20.0
+ + [J3][PRO] Adds ability to assign modules by EasyBlog page types, categories, tags and items
+ + [J3][PRO] Adds ability to assign modules by Form2Content types
+ + [J3][PRO] Adds ability to assign modules by Zoo item author
+ ^ Updates translations: cs-CZ, vi-VN
+ ^ [J3] Made code more in line with Joomla 3.4
+ ^ [J3] Moves close buttons on assignment groups from items to group
+ ^ [J3] Recodes assignment code
+
+28-Jan-2015 : v4.19.2
+ # [J3] Fixes issue with repeatable fields showing as tabs
+
+22-Jan-2015 : v4.19.1
+ + [PRO] Adds Norway counties to the Geo regions selection
+ # [J3] Fixes issue with hide empty option not working on non-mirrored modules
+ # [J3][PRO] Fixes issue with pre/post html options not working on non-mirrored modules
+
+20-Jan-2015 : v4.19.0
+ + [J3] Adds ability to assign modules by Joomla article author
+ + [J3][PRO] Adds ability to assign modules by K2 item author
+ ^ Updates translations: uk-UA
+ # [J3] Fixes issue with hide empty option not working on mirrored modules
+ # [J3][PRO] Fixes issue with pre/post html options not working on mirrored modules
+
+08-Jan-2015 : v4.18.10
+ ^ Updates translations: fa-IR
+ # Fixes issue with Free version being able to be installed over the Pro version
+
+24-Dec-2014 : v4.18.9
+ # [J3] Fixes issue with editor field not showing at all
+
+24-Dec-2014 : v4.18.8
+ # Fixes issue with content editor field not showing on 3rd party custom html modules
+ # Fixes issue with php warning about array merge
+
+21-Dec-2014 : v4.18.7
+ ! Removes compatibility for php versions under 5.3.13
+ ! [J3] Removes compatibility for Joomla 3 versions under 3.3.0
+ ^ Updates browser detection scripts
+ ^ Updates review links to the Joomla Extensions Directory
+ ^ Updates translations: pl-PL
+
+02-Dec-2014 : v4.18.6
+ # [FREE] Fixes issue with fatal error on frontend
+
+02-Dec-2014 : v4.18.5
+ # Fixes issue with nested mirroring not working
+
+25-Nov-2014 : v4.18.4
+ ^ Updates translations: id-ID
+ # [PRO] Fixes issue with assignment to VirtueMart pagetype cart not working
+ # [PRO] Fixes issue with pre/post html being copied from mirrored module
+ # [J3] Fixes issue with mirror module field having no initial width
+
+20-Nov-2014 : v4.18.3
+ # Fixes issue with php warning about using object of type stdClass as array
+
+17-Nov-2014 : v4.18.2
+ # Fixes issue with php warning about array_merge(): Argument #1 is not an array
+
+17-Nov-2014 : v4.18.1
+ ^ Improves speed of pageloads
+ # Fixes issue with error about nnFile on installation on some setups
+ # Fixes issue with error about redeclaring class jformfieldlist on Rocksprocket module
+
+14-Nov-2014 : v4.18.0
+ + [PRO] Adds ability to enter html to prepend / append to the modules content (for all modules)
+ # [PRO] Fixes issues with duplicate rows in update_sites table
+
+20-Oct-2014 : v4.17.0
+ + [PRO] Adds extra geo location service: Telize
+ # [J3] Fixes issue with pagination not working on first pageload in session
+
+01-Oct-2014 : v4.16.9
+ # [J3] Fixes issue with assignment to tags on items with multiple tags not working correctly
+
+25-Sep-2014 : v4.16.8
+ + Adds translations: vi-VN
+ # [PRO] Fixes issue with assignment to K2 categories not working correctly
+
+16-Sep-2014 : v4.16.7
+ ^ Updates browser list
+ # [PRO] Fixes issue with $article->text being empty when referenced in the PHP assignment
+ # [PRO] Fixes issue with assignment to K2 categories not working on empty items
+
+16-Aug-2014 : v4.16.6
+ # [PRO] Fixes issue with HikaShop category assignments not working when page doesn't have a menu item
+ # [PRO] Fixes issue with Virtuemart product list being empty
+ # [J2] Fixes issue with errors after upgrade to Joomla 3
+
+19-Jul-2014 : v4.16.5
+ # Fixes issue with assignments not working anymore in some cases (since v4.16.4)
+
+19-Jul-2014 : v4.16.4
+ # Fixes issue with NoNumber Framework not getting installed
+ # Fixes issue with manifest cache (version and update info) not being updated
+
+18-Jul-2014 : v4.16.3
+ # [PRO] Fixes HikaShop category assignment not working
+ # [PRO] Fixes issue with edit page breaking when not using en-gb as an active language in VirtueMart
+
+30-Jun-2014 : v4.16.2
+ # Fixes issue with non-html pages like raw being rendered as html
+ # [FREE] Fixes update issues
+ # [J3] Fixes issue with timeouts in assignment fields when having great amounts of articles/items
+
+30-Jun-2014 : v4.16.1
+ # Fixes wrong version number
+
+26-Jun-2014 : v4.16.0
+ ^ Refactors code
+ ^ Updates translations: id-ID, ro-RO, ru-RU
+ # Updates and fixed some stuff in mobile browser detection
+ # [J2] Fixes issue with errors after upgrade to Joomla 3
+
+11-Jun-2014 : v4.15.0
+ + Adds option to set default list ordering
+ ^ Updates translations: fr-FR, lt-LT, nl-NL
+ # Fixes issue with IP assignment throwing errors
+
+22-May-2014 : v4.14.2
+ ! Removes incorrect translations of the URL field description
+ ^ Made search ignore leading/trailing spaces
+ ^ Updates translations: id-ID, lt-LT, nl-NL
+
+06-May-2014 : v4.14.1
+ ^ Updates translations: nl-NL
+ # [J3] Fixes issue with missing css files
+
+01-May-2014 : v4.14.0
+ + [J3] Adds ability to customize the colour list
+ ! [J3] Removes the useless permission settings in the configuration (it uses the core module manager rules)
+ ^ Updates translations: id-ID
+ ^ [J3] Changes ACL/access settings to use the core com_modules settings for individual modules
+ ^ [J3] Improves ordering by colour
+ # [J3] Fixes issue with error about non-object in some cases (ie using FlexiContent)
+ # [J3] Fixes issue with error when using FlexiContent tags assignment
+ # [J3] Fixes issue with list showing trashed items by default
+
+16-Apr-2014 : v4.13.2
+ ^ Updates translations: fr-FR, id-ID, lt-LT
+ # [J3.3] Fixes issue with '::' separator in template style ids causing jQuery errors
+
+02-Apr-2014 : v4.13.1
+ # [J2] Fixes issue with some language strings causing javascript issues
+
+02-Apr-2014 : v4.13.0
+ + Adds option to set default menu assignment (all/none) for new modules
+ + [J2] Adds option to set default publish state for new modules
+ ^ [J3] Changes the display of some config fields
+ ^ [J3] Made mirror selection field larger and full width on hover/select
+ # [J3] Fixes issue with some language strings causing javascript issues
+
+31-Mar-2014 : v4.12.0
+ + [PRO] Adds assignment: Cookie Confirm
+ + [J3] Adds option to set default publish state for new modules
+ ^ Updates translations: fr-FR, hu-HU
+ # Fixes issue with homepage assignment not working when layout has non-alpha charaters
+ # [J3] Fixes issue with hours and minutes not being saved in publish up/down fields
+
+19-Mar-2014 : v4.11.5
+ # [J3] Fixes issue with publish dates and language selection also being visible (and not working) in first tab
+ # [J3] Fixes issue with trash icon not showing in status column when module is trashed
+ # [J3] Fixes issue with weird colour dropdown showing in edit view
+
+18-Mar-2014 : v4.11.4
+ # [J3] Fixes issue with missing colour icon in list view
+ # [J3] Fixes issue with ordering by colour descending not working
+
+14-Mar-2014 : v4.11.3
+ # Fixes issue with mysql error when using FLEXIcontent assignment
+ # [J3] Fixes issues with incorrectly saved colours
+ # [J3] Fixes issues with ordering by colour not working correctly
+ # [J3] Fixes issues with publishing state filter not working
+
+07-Mar-2014 : v4.11.2
+ # Fixes issue with php warning about strpos() in some cases
+ # [J3] Fixes issue with ACL not working correctly (assets table)
+ # [J3] Fixes issue with SQL error on saving on some setups
+ # [J3] Fixes issue with error about DateTime on some J3.2.3 setups
+ # [J3] Fixes issue with ordering by state not working in list view
+ # [J3] Fixes layout/styling issues for J3.2.3
+
+26-Feb-2014 : v4.11.1
+ ^ [J3] Changes minimum requirement to Joomla version 3.2.2
+ ^ [J3] Moves client selection (site/admin) outside the 'Search tools'
+ # [J3] Fixes issue with nested list selections breaking when there is an item with an incorrect 'level' value
+ # [J3] Fixes issue with not being able to create new admin module (defaults to site)
+
+21-Feb-2014 : v4.11.0
+ + Adds ability to assign by recurring date (so date range applies every year)
+ ^ Improves conversion of old Joomla 1.5 database values
+ ^ Updates translations: fr-FR, sv-SE
+ ^ [J3] Changes ACL/access settings to use the core com_modules settings instead of separate settings
+ ^ [J3] Made admin views in line with new Joomla 3.2 layouts
+ # Fixes issue with Home Page assignment not working correctly when home is a VirtueMart page
+ # Fixes issue with date assignment not working correctly
+ # Fixes issue with menu assignment stating 'All' in list view when assigned to entire menus
+ # Fixes issue with menu assignments not working when in text field mode
+ # Fixes issue with some Samsung S4 browsers not being seen as mobile
+ # Fixes issue with some missing language strings in some occasions
+ # [J3] Fixes issue with JForm::getInstance error
+ # [J3] Fixes issue with ordering columns in list view
+
+16-Dec-2013 : v4.8.3
+ # Fixes some untranslated system message strings
+ # [J3] Fixes issue with date fields adding the timezone offset on every save
+ # [J3] Fixes issue with tags assignments not working
+
+12-Nov-2013 : v4.8.2
+ # Fixes installation error about duplicate entry on some MySQL 5.6 setups
+ # Fixes issue with home page assignment not working correctly since v4.8.0
+ # Fixes issue with mirror functionality not working
+ # Fixes issue with trashed modules showing in mirror module selection
+
+11-Nov-2013 : v4.8.1
+ # [J3.1] Fixes issue with multiple assignment selections still not working correctly
+
+08-Nov-2013 : v4.8.0
+ + Adds a 'sorry' message to the changelog: Sorry for the many fixes today!
+ # Fixes issue with home page assignment also showing modules on some edit pages
+ # [J3.1] Fixes issue with multiple assignment selections not working correctly
+
+08-Nov-2013 : v4.7.13
+ # [J3.2] Fixes issue with multiple assignment selections not working correctly
+
+08-Nov-2013 : v4.7.12
+ # [J3.1] Fixes issue with html.php caused by v4.7.11
+
+08-Nov-2013 : v4.7.11
+ # Fixes issue with Geo Locating assignments not showing
+ # [J3.2] Fixes issue with assignment selections not working or being saved correctly
+
+08-Nov-2013 : v4.7.10
+ # [J3] Fixes Joomla 3.2 compatibility issues
+
+03-Nov-2013 : v4.7.9
+ # Fixes issue with icons not working
+ # [J3] Fixes issue with menu types not being selectable in menu item assignment
+
+31-Oct-2013 : v4.7.8
+ + Adds language id to module and content item titles in selection fields
+ # [J3] Fixes issue with php error about AdvancedModulesTable
+
+28-Oct-2013 : v4.7.7
+ + Adds language id to menu item titles in menu item selection field
+ + Fixes issue with wrong version number in system plugin
+
+23-Oct-2013 : v4.7.6
+ + Adds ability to assign to individual template styles
+ ^ Updates translations: nb-NO
+
+16-Oct-2013 : v4.7.5
+ # [FREE] Fixes issue with update failing due to false message about using old version from before Free/Pro
+
+15-Oct-2013 : v4.7.4
+ + Adds translations: da-DK, et-EE, hi-IN, hr-HR, id-ID, pt-PT, sr-RS, tr-TR
+ ^ Changes javascript minification to use Google Closure
+ ^ Updates list of browsers in Browser Assignment
+ ^ Updates translations: es-ES
+ # Fixes issue with URL assignments not always working correctly on cyrilic urls
+ # Fixes issue with helper file being unnecessarily loaded on admin side
+
+04-Oct-2013 : v4.7.3
+ # Fixes database query caching issue
+ # Fixes issue with update link always linking to com_nonumbermanager
+
+02-Oct-2013 : v4.7.2
+ ^ Improves some code speed
+ ^ Updates translations: ar-AA, ar-SA, bg-BG, bn-BD, ca-ES, el-GR, es-CL, es-ES, fa-IR, ja-JP, lv-LV, nl-NL, uk-UA
+ # Fixes issue with language and date assignments resetting when changing in the core module manager
+ # Updates and fixed some stuff in mobile browser detection
+
+07-Aug-2013 : v4.7.1
+ # [J2] Fixes issue with not being able to install when Qlue404 is installed
+
+06-Aug-2013 : v4.7.0
+ + [PRO] Adds option to hide copyright info on the main admin component view
+ + [PRO] Adds option to hide the update notification on the main admin component view
+ # Fixes issue with MijoShop assignments showing when it isn't installed
+ # [PRO] Fixes issue with 3rd party item and tag assignment fields showing categories instead
+ # [J3] Fixes issue with update notification not working
+
+05-Aug-2013 : v4.6.7
+ + Adds translations: hu-HU
+ ^ Updates translations: sk-SK
+ # [J1.7] Fixes issue with database error when duplicating modules
+
+17-Jul-2013 : v4.6.6
+ # Fixes issue with database error about duplicate entries when copying/changing modules
+ # [J3] Fixes issue with search on chosen fields not working correctly when items are indented
+
+12-Jul-2013 : v4.6.5
+ # Fixes issue with Mirror function not working properly
+ # Fixes issue with article assignments not working when using a BreezingForms form in the article
+ # [J3] Fixes issue with wrong value showing in 'Menu Items' column in list view when using Mirror function
+
+03-Jul-2013 : v4.6.4
+ ^ Updates translations: es-ES
+ # [J2][PRO] Fixes issue with php assignment not working (was still broken) SORRY!
+
+02-Jul-2013 : v4.6.3
+ # [J3] Fixes issue with colour picker not working correctly on RTL languages
+ # [J3][PRO] Fixes issue with php assignment not working (was still broken)
+
+01-Jul-2013 : v4.6.2
+ # Fixes issue with php warning about undefined property $id
+
+01-Jul-2013 : v4.6.1
+ # [PRO] Fixes issue with php assignment not working
+
+28-Jun-2013 : v4.6.0
+ + [PRO] Adds assignment: MijoShop (thanks Denis Dulici)
+ ! [J2] Removes compatibility for Joomla 2.5 versions lower than 2.5.10
+ ! [J3.0] Removes compatibility for Joomla 3 versions lower than 3.1.0
+ ^ Removes copyright and review stuff from module view
+ ^ Replaces 'color' with 'colour' (thanks Brian)
+ # Fixes issue with install issues on some MySQL 5.6 setups (due to InnoDB dependancy)
+ # [J3.0] Fixes issue with select options in multiselect checkbox lists not working
+
+18-Jun-2013 : v4.5.1
+ # [J2] Fixes issue with User Group Level assignment list being empty and throwing errors
+
+17-Jun-2013 : v4.5.0
+ + Adds possibility to assign to menu type (complete menu)
+ + [J3] Adds Tags assignment
+ # Fixes issue with category assignment not working on featured pages
+
+11-Jun-2013 : v4.4.8
+ # Fixes issue with non-com_content category pages using com_categories (thanks Jurien)
+ # [J2] Fixes issue with IP assignments not working
+ # [J3] Fixes issue with error about Invalid argument when site has more than 2500 articles/items
+
+30-May-2013 : v4.4.7
+ ^ Updates translations: nb-NO
+ # Fixes issue with link to core module manager in incompatibility notice not working
+
+15-May-2013 : v4.4.6
+ ^ Changes coding style to match Joomla core
+ ^ Speed improvements in module list view
+ # Fixes issue with homepage assignment not working with urls with a port (thanks pulsar)
+ # Fixes issue with modules with no specific menu assignments being initialized as assigned to none
+ # [J2] Fixes issue with assets not being cleaned correctly when deleting a module
+ # [J2] Fixes issue with escape characters in regex fields being removed
+
+22-Apr-2013 : v4.4.5
+ ^ Updates translations: pl-PL
+ # Fixes issue with installation manifest details not updating
+ # Fixes issue with update manager not seeing latest version (caused by manifest)
+
+18-Apr-2013 : v4.4.4
+ # [J3] Fixes issue with nested menu items and categories not being indented in selection fields
+
+11-Apr-2013 : v4.4.3
+ ^ Updates translations: de-DE
+ # Fixes issue with <p> tags surrounding output
+ # Fixes issue with foreach error in module edit view when there are issues with template installation/xml
+ # [J2] Fixes little language string issue in configuration screen
+
+28-Mar-2013 : v4.4.2
+ # [J2] Fixes issue with settings popup showing overlay and styling being messed up
+
+28-Mar-2013 : v4.4.1
+ + Adds Category Blog to content type assignment
+ # [J2] Fixes issue with togglers in settings setting height of 3rd party divs to auto
+
+25-Mar-2013 : v4.4.0
+ + [PRO] Adds IP Addresses / Ranges assignment
+ ^ Changes messaging on installation on unsupported Joomla versions
+ ^ Cleans up some code (syntax)
+ ^ Moves/fixed location of admin menu icon
+ ^ Updates translations: nb-NO, pl-PL, th-TH
+ ^ [J3] Changes styling/functionality of the colour picker
+ # Fixes issue with Illegal offset type php warning on some setups
+ # Fixes issue with errors when there are issues in a templateDetails.xml file
+ # [J3] Fixes issue with error about assets table on emptying trash
+
+09-Mar-2013 : v4.3.4
+ # [J3] Fixes issue with language assignment not being set in list view
+
+08-Mar-2013 : v4.3.3
+ ^ Updates translations: cs-CZ
+ # [J3] Fixes issue with most multi select (chosen) fields not saving multiple values
+
+05-Mar-2013 : v4.3.2
+ + Adds translations: bn-BD
+ ^ Updates list of browsers in browser assignments
+ ^ Updates translations: de-DE, lt-LT, nl-NL, sl-SI, th-TH
+ ^ [J3] Changes fieldtype of single level multi selects to chosen fields
+ # Fixes issue with assets not being cleaned correctly when deleting a module
+ # [FREE] Fixes issue with php notice about show_assignto_users
+ # [J2] Fixes issue with assignments showing in admin modules when using tabbed view
+ # [J3] Fixes issue with Firefox giving unresponsive script messages
+
+15-Feb-2013 : v4.3.1
+ ^ Updates translations: nl-NL
+ # [J3][FREE] Fixes issue with php notice about undefined property show_extra
+
+08-Feb-2013 : v4.3.0
+ + Adds close button on assignments with info on how to disable via options (for admins)
+ + Adds switch for Regular Expression syntax on URL assignment field
+ + [PRO] Adds Geolocation assignments (continent, country, region) using geoPlugin.com
+ ! Removes option to hide Option button in module edit view
+ ^ Improves conversion of old Joomla 1.5 database values
+ ^ Updates translations: lt-LT, sv-SE
+ # Fixes some issues with installation breaking and throwing errors on some setups
+ # [J2] Fixes invalid version info and update notification in the system plugin
+
+29-Jan-2013 : v4.2.1
+ + Adds message with redirect link to Joomla core module manager on RocketTheme and Gavick modules
+ ! Removes auto-redirect on RocketTheme and Gavick modules
+ ^ Updates translations: lt-LT
+
+28-Jan-2013 : v4.2.0
+ + Adds links to switch to Joomla core module manager (and back)
+ + Adds redirect to Joomla core module manager for modules that are incompatible like RocketTheme and Gavick modules
+ ! Removes the Web crawlers / Searchbots assignments
+ ! [J3] Removes the Open in Modal window setting
+ ^ Updates translations: th-TH
+ ^ [J2] Set the Open in Modal window option to disabled by default
+ ^ [J3] Moves the Open in Modal window link to the dropdown
+ # [J2] Fixes issue with php notice about show_assignto_browser
+ # [J3] Fixes issue with Bootstrap size select field not having option 0
+ # [J3] Fixes issue with ordering table via the dropdown options not working
+
+11-Jan-2013 : v4.1.2
+ ^ Updates translations: fr-FR, nl-NL, pl-PL, pt-BR, ru-RU
+ # [J2][PRO] Fixes issue with extra fields not showing up in module edit page
+ # [J3] Fixes issue with jumpy effect on hover over list items
+ # [J3] Fixes issue with tooltips on Open in Modal button not working
+ # [J3] Fixes issue with tooltips on column titles causing sort by ID link to not work
+
+30-Dec-2012 : v4.1.1
+ # [J2] Fixes issue with error about View not found
+
+29-Dec-2012 : v4.1.0
+ ^ Cleans up code
+ ^ Moves media files to Joomla media folder
+ ^ Updates translations: sv-SE
+ ^ [J3] Moves Content output tab before Advanced Options tab for Custom HTML modules
+ # Fixes error about XML setup file on first install
+
+11-Dec-2012 : v4.0.7
+ ^ Updates translations: nb-NO
+ # [PRO] Fixes issue with VirtueMart categories assignment not working when product has multiple categories
+ # [PRO] Fixes issue with VirtueMart categories assignment not working with VirtueMart Categories Layout
+ # [J2] Fixes issue with errors about xml files on installation
+ # [J2] Fixes issue with incomplete incompatibity message on install on Joomla versions lower than 2.5.7
+
+04-Dec-2012 : v4.0.6
+ # Fixes issue with some editor button dropdowns not showing completely
+ # [PRO] Fixes issue with PHP assignments throwing errors
+ # [PRO] Fixes issue with VirtueMart sub-categories not showing
+
+27-Nov-2012 : v4.0.5
+ ! [J2] Removes ability to install on Joomla versions lower than 2.5.7
+ # [PRO] Fixes issue with VirtueMart categories not showing/working correctly when using a different default language than en_gb
+
+27-Nov-2012 : v4.0.4
+ # Fixes issue with date/time assignments not working correctly due to offset problems
+ # Fixes issue with wrong value showing in 'Menu Items' column in list view when using Mirror function
+ # [J3][PRO] Fixes issue with HikaShop assignments not showing
+
+14-Nov-2012 : v4.0.3
+ + Adds translations: nb-NO
+ # Fixes issue with error messages about XML file on installation on some setups
+
+13-Nov-2012 : v4.0.2
+ # Fixes issue with HikaShop assignments giving message about files missing when using HikaShop 2
+ # Fixes issue with error messages about XML file on installation on some setups
+ # [2.5][FREE] Fixes unaligned options in settings popup
+
+10-Nov-2012 : v4.0.1
+ # [FREE] Fixes issue with version number causing problems with version check in the NoNumber Extension Manager
+
+09-Nov-2012 : v4.0.0
+ + [J3] Adds Joomla 3 support
+ ! [J1.5] Removes Joomla 1.5 support
+
+08-Nov-2012 : v3.4.6
+ ! [J1.5] LAST VERSION COMPATIBLE WITH JOOMLA 1.5
+ # [J2] Fixes concatenation of existing SEF and non-SEF values
+
+08-Nov-2012 : v3.4.5
+ ! [J2] Removes separate SEF and non-SEF url fields in assignments
+ ^ Updates translations: lt-LT
+ # [J1.5][PRO] Fixes issue with old versions of k2 not being recognized
+ # [J2] Changes default layout back to slides because of conflicts between tabs script and some editors
+
+26-Oct-2012 : v3.4.4
+ # [J2] Fixes issue with textarea data being escaped on save (slashes added)
+
+24-Oct-2012 : v3.4.3
+ + [J2] Adds onclick function on assignments headings to check the checkbox
+ # [J2] Fixes issue with php notice about undefined index
+
+23-Oct-2012 : v3.4.2
+ + [J2] Adds option to change layout back to slides instead of tabs
+ ! Removes the ability to hide the Mathing Method option
+ ! Removes the ability to hide the Mirror other module option
+ ! Removes the ability to hide the Show Assignments option
+ # [J2][PRO] Fixes issue with HikaShop page type and category assignments not working
+
+12-Oct-2012 : v3.4.1
+ # [J2][PRO] Fixes issue with Akeeba Subscriptions assignments not showing up//working
+ # [J2][PRO] Fixes issue with K2 language strings not being handled in assignment settings
+
+10-Oct-2012 : v3.4.0
+ ^ Cleans up a lot of code
+ ^ [J2] Changes accordion slides to tabs in module edit page
+ # [PRO] Fixes issue with k2 not being recognized when upgraded to K2 2.6.0
+
+02-Oct-2012 : v3.3.6
+ # Fixes issue with error on saving modules when menu assignment shows text field (large menus)
+ # [J1.5] Fixes issue with new line in url assignment not working as seperator
+ # [J1.5] Fixes issue with some regular expressions in url assignment not working
+
+19-Sep-2012 : v3.3.5
+ ^ Updates translations: sv-SE, th-TH
+ # Fixes some issues with certain types of modules throwing php warnings
+ # [J1.5] Fixes issue with php warning about creating default object from empty value on php5.4
+ # [J1.5] Fixes issue with php warning about undefined index
+ # [J1.5] Fixes issue with php warning about undefined property
+ # [J2] Fixes issue with K2 category assignments not working
+ # [J2] Fixes issue with mobile browser assignments not working
+
+10-Sep-2012 : v3.3.4
+ ^ Updates translations: it-IT
+ ^ [J2] Item multi select fields return as textarea instead of text field
+ # Fixes some language strings issues
+ # [J1.5] Fixes issue with browser assignments not working
+ # [J2] Fixes issue with Zoo category assignments not working
+
+05-Sep-2012 : v3.3.3
+ ^ Cleans some javascript
+ # [J1.5] Fixes issue with assignments not showing when checked icw MooTools Upgrade
+
+05-Sep-2012 : v3.3.2
+ ^ [J2] Item multi select fields return as text field if more than 2000 items (to prevent long page loads)
+ # Fixes some language strings
+
+04-Sep-2012 : v3.3.1
+ # [J1.5] Fixes issue with assignments not showing when checked
+
+04-Sep-2012 : v3.3.0
+ + [J1.5] Adds separate assignments for operating systems, search bots and mobile browsers
+ + [J2] Adds Menu Item filter to module list
+ + [J2] Adds Page Type assignments to all content, CCK and Commerce assignment groups
+ + [J2] Adds ability to set colour from list view
+ + [J2][PRO] Adds Akeeba Subscriptions assignments
+ + [J2][PRO] Adds FLEXIcontent assignments
+ + [J2][PRO] Adds HikaShop assignments
+ + [J2][PRO] Adds RedShop assignments
+ + [J2][PRO] Adds VirtueMart assignments
+ + [J2][PRO] Adds ZOO Item assignment
+ - [J2] Removes default option for the Show Assignments option
+ ^ Changes ordering of assignment types
+ ^ Changes styling and layout of assignment options
+ ^ [J2] Changes Article ID text field to a multiselect
+ ^ [J2] Made config popup on pageload when config has not been saved yet
+ ^ [J2] Moves SearchBots from OS to Browser assignments
+ ^ [J2] Moves access selection back to Details block (like in core)
+ ^ [J2][PRO] Changes K2 Item ID text field to a multiselect
+ # Fixes browser/os assignments not working correctly (since v3.2.6)
+ # [J2] Fixes batch language selection
+
+10-Aug-2012 : v3.2.6
+ + Adds leading dots and bars to multi select boxes to improve visual nesting
+ ! [J2] Removes batch language selection (until I get it working correctly)
+ ^ Updates browser/os lists
+ # Fixes browser/os matching for Safari agents
+
+31-Jul-2012 : v3.2.5
+ # Fixes modules with hompepage assignment also showing with some other forms that submit to index.php
+ # Fixes modules with hompepage assignment not working on some multi-language setups
+ # Fixes modules with url assignment not working on some non-sef setups
+ # Fixes some code to make it more compatible with Modules Anywhere
+
+18-Jul-2012 : v3.2.4
+ # Fixes modules with hompepage assignment also showing with forms that submit to index.php
+
+05-Jul-2012 : v3.2.3
+ # Fixes issue with special assignments no longer working on some setups (since v3.2.2)
+ # [J2] Fixes issue with PHP notice about undefined property assignto_zoocats
+
+04-Jul-2012 : v3.2.2
+ # Fixes issue with checkbox elements in assignments not working
+ # [PRO] Fixes issue with pro assignments not working when installing another non-pro NoNumber extension
+
+29-Jun-2012 : v3.2.1
+ # [J2][FREE] Fixes issue with PHP notice about undefined property show_assignto_php
+
+29-Jun-2012 : v3.2.0
+ + [J2] Adds separate assignments for operating systems, search bots and mobile browsers
+ ! Removes ability to install on Joomla 1.6 and 1.7
+ ^ Cleans a lot of code
+ ^ Updates browser assignment list
+ ^ Updates translations: de-DE, sl-SI
+ # [J2] Fixes issue with menu item ordering in select field
+
+29-May-2012 : v3.1.4
+ ! Removes ability to install on setups with php 5.2 or lower
+ ^ [J2] Changes syntax/code to comply with latest com_modules code
+ # [J1.5] Fixes issue with assignments of same type on same page acting weird
+
+22-May-2012 : v3.1.3
+ # [J1.5][FREE] Fixes issue with PHP notice about undefined properties
+
+09-May-2012 : v3.1.2
+ # Fixes issue with installation failing (conflicted-copy)
+
+09-May-2012 : v3.1.1
+ ^ Updates translations: nl-NL
+ # [J2][FREE] Fixes issue with notice about undefined property show_extra
+ # [J2][PRO] Fixes issue with page breaking when $article variable is used in php assignment
+
+01-May-2012 : v3.1.0
+ + Adds ability to define extra fields for Joomla 2.5 version
+ ^ Increases page load speed by changing how xml files are loaded
+
+26-Apr-2012 : v3.0.4
+ ^ Increases performance when using same assignments for different modules
+ ^ Updates translations: pl-PL
+ # [J2] Fixes issue with the time offset being doubled on some setups (used in time based assignments)
+
+17-Apr-2012 : v3.0.3
+ ^ Made collecting of components for component selection field a lot simpler/faster
+
+16-Apr-2012 : v3.0.2
+ + Adds translations: zh-TW
+ ^ Updates translations: nl-NL, th-TH, zh-CN
+ # [J1.7+] Fixes issue with not all frontend components showing in component selection (again)
+
+10-Apr-2012 : v3.0.1
+ # SECURITY FIX: Fixes URL injection vulnerability in NoNumber Framework
+
+07-Apr-2012 : v3.0.0
+ ^ Changes some language strings
+ ^ Cleans up code syntax
+ ^ Now available as Pro and Free version
+ ^ Updates translations: de-DE, lt-LT, pt-BR
+ # [J1.7+] Fixes issue with not all frontend components showing in component selection
+
+12-Mar-2012 : v2.4.2
+ ^ Updates translations: bg-BG, nl-NL
+ # [J1.7+] Fixes issue with access field not showing for admin modules
+
+25-Feb-2012 : v2.4.1
+ # [J1.7] Fixes issue with text filter stripping out all html from custom html module content
+
+22-Feb-2012 : v2.4.0
+ + Adds option to set module list title back to core default
+ + Adds translations: zh-CN
+ + [J1.7+] Adds batch functionality as provided in Joomla 2.5 core
+ + [J1.7+] Adds display of version number, version check and license check in the component
+ + [J1.7+] Adds option to show note in separate column or tooltip
+ + [J1.7+] Adds tooltips to edit links
+ ^ Updates translations: pt-BR
+ ^ [J1.7+] Moves access selection to User assignment group
+ ^ [J1.7+] Syncs code syntax with Joomla 2.5 core
+ # Fixes issue with Homepage assignment causing some extensions to fail loading scripts
+ # [J1.5] Fixes issue with Homepage assignment not working on multi-language sites
+ # [J1.7+] Fixes issue with modal popup causing items to remain checked out on close
+
+26-Jan-2012 : v2.3.0
+ + Adds '(Un)Select all' options to multiselect fields
+ + [J1.7+] Adds ability to add colours to modules for display in list
+ + [J1.7+] Adds ability to open edit page in modal popup window
+ ^ Improves styling and functioning of colour select field
+ # Fixes issue with Homepage assignment not working when url has (hidden) hash
+ # Fixes issue with K2 category assignments not working correctly
+
+10-Jan-2012 : v2.2.16
+ + Adds 'None' group title in module select list above non-assigned modules
+ # Fixes issue with Homepage assignment not working correctly since previous version
+ # Fixes issue with installer not removing the folder/zip from the tmp
+
+09-Jan-2012 : v2.2.15
+ ^ Updates translations: sl-SI
+ # Fixes issue with Homepage assignment not working on multi-language sites
+ # [J1.7+] Fixes issue with new modules defaulting to assignment to no menu items
+
+02-Jan-2012 : v2.2.14
+ + Improves speed of toggler script
+ ! Removes grey overlay during loading of page
+ ^ Updates translations: th-TH
+ # Fixes issue with error about formhelper on Joomla 2.5beta setups
+
+23-Dec-2011 : v2.2.13
+ ^ Improves speed and stability of toggler script
+ # Fixes issue with assignment options not showing on mootools 1.2+ setups
+
+20-Dec-2011 : v2.2.12
+ + Adds ready to use php variables to be used in php assignment: $article, $Itemid, $app/$mainframe, $db/$database, $user
+ # Fixes issue with initial assignment of modules assigned to none not working correctly
+ # Fixes issue with remnant hidden menu item causing problems for other extensions
+
+16-Dec-2011 : v2.2.11
+ ^ [J1.7] Changes position field to not be required
+ # [J1.7] Fixes issue with assignment settings not getting stored on first save
+
+16-Dec-2011 : v2.2.10
+ ^ Updates translations: es-CL, es-ES
+ # Fixes issue with NoNumber Frameworks scripts getting loaded twice, causing some problems
+ # [J1.7] Fixes issue with option togglers (in closed slides) not working properly
+
+03-Dec-2011 : v2.2.9
+ # [J1.7] Fixes issue with module edit pages giving error: XML file did not load
+
+02-Dec-2011 : v2.2.8
+ ^ Cleans up more code
+ # [J1.7] Fixes issue with error about 'Duplicate entry' in debug mode
+
+16-Nov-2011 : v2.2.7
+ # Fixes issue with browser assignments not working for some browsers/crawlers
+ # Fixes issue with duplicating items not keeping assignments
+
+02-Nov-2011 : v2.2.6
+ # Fixes issue with javascript error concerning nnToggler
+
+02-Nov-2011 : v2.2.5
+ ^ Cleans code syntax (no longer guaranteed support for php 5.2.x and lower)
+ # [J1.7] Fixes issue with error about multiselect behavior
+ # [J1.7] Fixes issue with not all frontend components showing in component selection
+
+28-Oct-2011 : v2.2.4
+ ^ Updates translations: ar-SA, ja-JP
+ # Fixes issue with modules with custom element types not displaying correctly in some cases
+
+17-Oct-2011 : v2.2.3
+ + [J1.7] Adds K2 support
+ ^ Updates translations: fr-FR
+ # Fixes SECURITY issue in NoNumber Framework plugin
+ # Fixes issue with assignment to homepage and not using www. in url
+ # Fixes issue with assignment to homepage and using https in url
+ # Fixes issue with assignment to homepage url being case sensitive
+ # Fixes issue with assignment to none not being saved in core modules table properly
+ # Fixes issue with assignment to tags (FlexiContent/K2) being case sensitive
+ # Fixes issue with double checkboxes showing on long titles in select fields
+
+10-Oct-2011 : v2.2.2
+ # Fixes issue with not all frontend components showing in component selection
+ # Fixes issue with separator items with child items not showing up in menu item select list
+
+09-Oct-2011 : v2.2.1
+ # Fixes issue with Sunday being displayed as Saturday in assignment settings
+
+08-Oct-2011 : v2.2.0
+ ^ Changes title of module edit page to show module type name
+ ^ Cleans up some code (like no more use of DS)
+ ^ Improves installer
+ ^ Moves translation language files to main package (no more language packs)
+ # Fixes issue with separator items showing up in menu item select list
+ # Fixes issue with some errors when used in combination with MetaMod
+ # Fixes layout issue in Hathor admin template
+
+16-Sep-2011 : v2.1.1
+ # Fixes issue with multiselect fields breaking due to double scripts
+
+16-Sep-2011 : v2.1.0
+ ^ Changes Component checkboxes to multiselect list
+ ^ Changes NoNumber Elements plugin to NoNumber Framework
+ ^ Moves common language strings to NoNumber Framework files
+ # Fixes issue with errors about getTitle on some Joomla 1.7 setups
+ # Fixes issue with not all frontend components showing in component selection
+ # Fixes some file encoding problems
+ # Fixes some issues with language strings
+ # [J1.7] Fixes issue with category selection not working
+ # [J1.7] Fixes issue with errors when using browser assignments
+
+13-Aug-2011 : v2.0.2
+ # Fixes issue with errors in module edit view with some other NoNumber extensions, like CustoMenu
+ # [J1.7] Fixes issue with blank screen / not working
+
+12-Aug-2011 : v2.0.1
+ # Fixes wrong version number
+
+12-Aug-2011 : v2.0.0
+ + Adds Zoo application assignment
+ + Adds filters, styling and extra functionality to multiselect boxes
+ + Joomla 1.7 compatible!
+ ^ Changes order of URL fields (SEF field first)
+ ^ Improves date assignments if up or down date is not set
+ # Fixes issue with conflicting elements with some 3rd party modules
+
+15-Jul-2011 : v1.19.0
+ + Adds minimize/maximize to selectboxes
+ + Adds support for FlexiContent categories, tags, types and items (thanks Georgios Papadak)
+ ^ Updates browser select list
+ # Fixes issue with JEventHandler error on some setups
+ # Fixes issue with errors when mirror module is on, but no module to mirror is selected
+
+21-Jun-2011 : v1.18.1
+ # Fixes issue with SEF url assignments not working
+ # Fixes issue with indentation of sublevel selectbox options in non-Firefox browsers
+ # Fixes issue with some assignments not showing when matching method is hidden
+
+18-Jun-2011 : v1.18.0
+ + Adds Parameter button in module edit screen (and option to hide it)
+ + Adds option to assign to real home page
+ + Adds option to hide ignored assignment types
+ + Adds option to overrule if SEF URLS are used
+ ^ Changes 'All' to 'Ignore' in 'Assign to' options
+ ^ Changes display of URL assignment fields (hides the not-used field)
+ ^ Changes layout of options
+ ^ Changes option select boxes to support letter key-press searching
+ ^ Changes use of elements
+ # Fixes issue with assignment to K2 tags with cyrillic characters sometimes not working
+
+13-May-2011 : v1.17.1
+ # Fixes issue with php errors about undefined properties (show_assignto_secscats)
+
+12-May-2011 : v1.17.0
+ + Adds K2 item assignment option
+ + Adds K2 tags assignment option
+ + Adds robots/web crawlers to browser selection list
+ ^ Changes grouping of assignment options a little
+ ^ Updates browser selection list
+
+20-Apr-2011 : v1.16.5
+ + Adds message about parameters at lop of list (and option to turn it off)
+ ^ Changes some form elements to be J1.6 ready
+ # Fixes issue with Turkish language file error on installation
+
+06-Apr-2011 : v1.16.4
+ + Adds display of current date/time in settings
+ + Adds option to show custom description in name column
+ ^ Changes date fields to also display time
+ ^ Improves date/time assignment checks
+ # Fixes issue with browser assignment Safari also assigning to Chrome (thanks Liam)
+ # Fixes issue with long menu item names messing up layout
+ # Fixes issue with offset not being taken into account on time assignment
+
+25-Mar-2011 : v1.16.3
+ ^ Changes language files to be J1.6 ready
+ # Fixes some minor language string issues
+
+15-Jan-2011 : v1.16.2
+ ^ Changes extension icon / logo
+ ^ Groups some assignments visually
+ # Fixes issue with category selection with similar cat ids also getting selected
+ # Fixes issue with months assignment not working
+
+11-Dec-2010 : v1.16.1
+ # Fixes issues with date range assignment not working anymore
+
+10-Dec-2010 : v1.16.0
+ + Adds assignments to seasons, months, day of the week and time
+ ^ Changes layout of assignments a bit
+ # Cleans up some code
+ # Fixes issues with document being called to early
+ # Fixes some issues with loading of language strings
+
+03-Dec-2010 : v1.15.3
+ # Fixes issue in global javascript for url calls
+ # Fixes wrong version number
+
+03-Dec-2010 : v1.15.1
+ # Fixes some issues with initializing advanced parameters
+ # Fixes some language strings
+
+25-Nov-2010 : v1.15.0
+ + Adds checks to see if NoNumber Elements plugin is installed/enabled
+ + Adds option to reverse mirror another module
+ ^ Changes module mirror field to a select
+ ^ Fixes and updated all language strings
+ # Fixes issue with advanced parameters not being saved on first apply
+
+16-Nov-2010 : v1.14.0
+ # Fixes extension causing pages to break on some setups
+
+15-Nov-2010 : v1.13.3
+ # Fixes issue with assignment to articles not working (broken in v1.13.2)
+
+15-Nov-2010 : v1.13.2
+ + Adds option to assign to article (meta) keywords
+ # Fixes some language strings
+
+15-Nov-2010 : v1.13.1
+ ^ Changes colour picker
+ ^ Changes way of compatibility with JA T3v2 framework
+ # Fixes issue with browser detection for Safari 4 & 5
+
+09-Nov-2010 : v1.13.0
+ + Adds ability to add colours to modules for display in list
+ + Adds ability to define tooltips for the extra fields
+ + Adds assignment to article keywords
+ ^ Changes output of menu item selection field
+ ^ Made JA T3v2 framework compatible
+ ^ Made MooTools 1.2 compatible
+ # Fixes issue with assignment options not being copied when copying modules
+ # Fixes issue with reset button not clearing all filters
+
+18-Oct-2010 : v1.12.3
+ # Fixes issue with modules with URL assignments causing problems for assignments of other modules
+ # Fixes issue with php notice on menu items
+
+17-Oct-2010 : v1.12.2
+ # Fixes issue introduced in v1.12.1 with module pages giving error
+
+17-Oct-2010 : v1.12.1
+ # Fixes issue with module list view being slow or crashing on sites with large amount of menu items
+
+16-Oct-2010 : v1.12.0
+ + Adds ability to assign to only children of menu items and 3rd party content categories
+ + Adds ability to define extra fields
+ ^ Improves Browser assignment
+ ^ Moves parameters from plugin to component
+ # Fixes issue with filters for Site and Administrator modules list using same cookies
+
+26-Sep-2010 : v1.11.0
+ + Adds ZOO support in assignments
+ ! Reverts back to v1.9.8 way of checking if empty (new way was too buggy), meaning countModules will not give correct data
+ ^ Changes display of menu names in menu item select fields (no more uppercase)
+
+19-Sep-2010 : v1.10.2
+ # Fixes issue with wrong version number showing
+
+19-Sep-2010 : v1.10.1
+ # Fixes issue with Cyrillic characters of menu names (uppercase) in menu item select fields
+
+17-Sep-2010 : v1.10.0
+ + Adds menu item assignment selection in module list
+ # Fixes issue with items assigned to article ids also showing up on those section/category ids
+ # Fixes issue with module count on module positions with hide empty modules
+
+03-Sep-2010 : v1.9.8
+ + Adds display of version number in the component
+ + Adds some descriptions on assignment options
+
+24-Jul-2010 : v1.9.7
+ ^ Changes way version and license information are displayed (now via ajax)
+ ^ Changes way versions and licenses are checked (no more base64)
+
+19-Jul-2010 : v1.9.6
+ + Adds option to also show the tooltip (now custom description) as a separate column
+ ^ Changes some layout
+ # Fixes issue with assignment to browsers not working correctly
+
+12-Jul-2010 : v1.9.5
+ + Adds assignment to browsers (was not added in v1.9.3 & 1.9.4)
+
+07-Jul-2010 : v1.9.3
+ + Adds assignment to browsers
+ # Fixes issue with errors when assigned to Mighty Resource categories
+ # Fixes issue with some regex in assignment to url not working
+
+29-Jun-2010 : v1.9.2
+ ^ Improves url match assignment to also work with html entities in url
+ # Fixes issue with assignment to url not working
+ # Fixes issue with errors when assigned to K2 categories
+ # Fixes issue with include children of K2 and Mighty Resource categories not working
+ # Fixes issue with layout of GK modules (in admin) being messed up
+
+23-Jun-2010 : v1.9.1
+ # Fixes issue with code looping, causing page timeouts
+
+22-Jun-2010 : v1.9.0
+ + Adds Mighty Resource support in assignments
+ ^ Changes K2 item id field to a select field
+ ^ Split URL assignment into 2 fields, one for SEF, one for non-SEF
+ # Fixes issue with errors on creation of new admin modules
+
+14-May-2010 : v1.8.5
+ ^ Small change in module helper file (to match MetaMod's file)
+
+01-May-2010 : v1.8.4
+ ! Removes an unused language string
+ ^ Improves check for empty modules (takes certain empty html tags into consideration)
+ # Fixes issue with assignment to multiline php not working
+ # Fixes issue with assignment to multiline urls not working
+ # Fixes issue with mirroring modules not working correctly
+ # Fixes issue with modules not showing up on non-content pages if assigned to exclude content pages
+
+13-Apr-2010 : v1.8.3
+ # Fixes errors caused by assignment to PHP
+
+12-Apr-2010 : v1.8.1
+ # Fixes issue with K2 categories/items assignment not working correctly
+ # Fixes issue with PHP assignment not working correctly
+
+07-Apr-2010 : v1.8.0
+ ^ Made compatible with MetaMod (thanks to Stephen Brandon)
+ # Fixes issue with PHP assignment field not saving correctly
+ # Fixes issue with assignment to component not working correctly in some occasions
+ # Fixes issue with assignment to date (Finish Publishing) not working correctly
+
+29-Mar-2010 : v1.7.2
+ # Fixes issue with modules assigned to article id also showing up on non article pages
+ # Fixes issue with sites breaking (blank page) on some setups
+
+26-Mar-2010 : v1.7.1
+ + Adds field to add a tooltip description for each module (used in module list)
+ + Adds filter for menu item selection (All/Varies/None)
+ ^ Displays disabled menu items as italic in menu item select box
+ # Fixes issue with RokTab editor toolbars being hidden
+ # Fixes issue with assignment to date not working correctly
+ # Fixes issue with error about attempt to assign property of non-object
+ # Fixes issue with trashed menu items appearing in menu item select box (was not fixed in v1.7.0
+ # Fixes layout issues with AdminPraise 2 template
+
+28-Feb-2010 : v1.7.0
+ + Adds filter for access level in module list
+ + Adds option to move selection of modules to other position
+ ! Removes Pages column from module list
+ ^ Optimises more code to make it all a lot faster/lighter
+ # Fixes issue with admin modules giving errors in edit screen
+ # Fixes issue with database table not being created (for real this time)
+ # Fixes issue with links pointing to com_advancedmodules when option is com_modules
+ # Fixes issue with mirroring modules not working correctly
+ # Fixes issue with modules assigned to K2 categories also appearing on other pages
+ # Fixes issue with position select box not working on IE
+ # Fixes issue with trashed menu items appearing in menu item select box
+ # Fixes some layout issues for APLite template
+
+14-Feb-2010 : v1.6.1
+ # Fixes issue with database table not being created
+
+12-Feb-2010 : v1.6.0
+ + Adds more assignment filters (url matching, user ids, k2 categories, php evaluation)
+ ^ Changes assignment checks to use global plugin
+ ^ Changes display of position combobox (text field and pulldown separately)
+ ^ Optimises more code (= faster)
+ ^ Reduces number of queries
+ # Fixes issue with deprecated syntax for php 5.3+
+ # Fixes issue with errors about registry for php 5.0.5
+ # Fixes issue with mirror module not working correctly
+ # Fixes issue with modal links breaking on titles with special characters
+ # Fixes issue with sections/categories assignments not working correctly
+ # Fixes ordering of module list in menu items view
+
+19-Jan-2010 : v1.5.0
+ + Adds extra options to hide certain settings
+ + Adds option to also show/hide on child menu items
+ + Adds option to choose AND / OR method of assignments matching
+ + Adds option to mirror assignment settings of other module
+ + Adds save button to module popup (modal) window
+ ^ Changes the License Code check (now controlled by the License Manager)
+ ^ Moves elements to separate global plugin (also used by other extensions)
+ ^ Optimises code a little (= faster)
+ ^ Reduces number of queries
+ # Fixes location of Joomla! DTD files
+ # Fixes ordering field in module edit screen not working
+
+03-Jan-2010 : v1.4.3
+ # Fixes issue with error on Custom HTML module admin pages
+
+02-Jan-2010 : v1.4.2
+ # Fixes issue with error on plugin settings page (due to License check)
+
+01-Jan-2010 : v1.4.1
+ + Adds Commercial License Code support
+ ^ Moves Module Assignment options to parameter tabs
+ # Fixes issue with assignment to JACL user group levels not working correctly
+ # Fixes issue with modules assigned to articles/categories/sections also showing on other pages
+
+18-Dec-2009 : v1.3.3
+ # Fixes issue with database query error on installation
+
+14-Dec-2009 : v1.3.2
+ # Fixes issue with ordering of modules on some setups
+ # Fixes issue with php warning if no modules are published
+
+04-Dec-2009 : v1.3.1
+ ^ Improves some code
+ ^ Reduces amount of queries (thanks to Omar Ramos)
+ # Fixes issue with jos_ instead of #__ being used in 2 queries
+
+01-Dec-2009 : v1.3.0
+ ^ Changes name from Advanced Modules to Advanced Module Manager
+ ^ Changes order of filter options
+ ^ Changes size of modal window to maximum
+ ^ Changes titles and descriptions of filters (publish on instead of limit by)
+ ^ Improves User Group Level selection
+ ^ Improves some code
+
+18-Nov-2009 : v1.2.0
+ + Adds extra limit filters (date, sections / categories, articles, user group levels, components, languages, templates)
+ + Adds extra option to not render module if it has not output
+ # Fixes issue with error on uninstallation of plugin
+ # Fixes issue with php syntax error for php4 setups
+
+28-Oct-2009 : v1.0.0
+ + First stable release
+ # Fixes issue with menu item edit screen returning blank on some setups
+ # Fixes issue with new module screen returning blank (when selecting type and clicking next)
+ # Fixes issue with toggling of settings
+
+13-Oct-2009 : v0.2.2
+ ^ Changes file encoding to UTF-8
+ ^ Changes some code to make it a bit lighter
+ # Fixes issue with module ordering not working correctly (wasn't fixed in v0.2.1)
+
+12-Oct-2009 : v0.2.1
+ # Fixes issue with module ordering not working correctly
+
+09-Oct-2009 : v0.2.0
+ + First beta release

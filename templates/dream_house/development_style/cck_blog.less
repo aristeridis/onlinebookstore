@@ -1,0 +1,271 @@
+.moduletable_blog{
+
+	// .container_block_mod();
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 60px;
+
+	// #cck_col-2{
+	// 	padding-left: 0;
+	// 	padding-right: 0;
+	// }
+
+	.cck-wrapper-instance{
+		margin: 0 -25px
+	}
+
+	img{
+		.transition;
+	}
+
+	span{
+		display: block;
+	}
+
+	a{
+		cursor: pointer;
+
+		&,
+		img{
+			display: block;
+		}
+
+	}
+
+	// #cck_col-2{
+	// 	padding-left: 0  !important ;
+	// 	padding-right: 0  !important ;
+	// }
+
+	.date{
+    font-weight: 600  !important ;
+    letter-spacing: 0.5px;
+	}
+
+	.description{
+		letter-spacing: 0 ;
+		line-height: 25px  !important ;
+	}
+
+	.image{
+		position: relative;
+		overflow: hidden;
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			.opacity(0);
+			.transition;
+			pointer-events: none;
+			background-color: @colorWhite;
+		}
+
+		&:hover:after{
+			.opacity(0.3);
+		}
+	}
+	
+}
+
+
+
+.container_block_mod(){
+  // padding-right: 15px;
+  // padding-left: 15px;
+  // margin-right: auto;
+  // margin-left: auto;
+
+  // @media (min-width: 768px) {
+
+  //   width: 750px;
+    
+  // }
+
+  // @media (min-width: 992px) {
+ 
+  //   width: 970px;
+    
+  // }
+
+
+  // @media (min-width: 1200px) {
+    
+  //   width: 1170px;
+    
+  // }
+
+}
+
+
+
+div.cck-body .cat_fields{
+	background-color: transparent;
+}
+
+.cck-body .instance_block{
+	background-clip: content-box;
+}
+
+.cck-body{
+
+	.titlecenter{
+
+	  // a{
+	  // 	padding-left: 0  !important ;
+	  // 	padding-right: 0  !important ;
+	  // }
+	  
+	}
+}
+
+
+
+// .all_post_description,
+// .blog_post_description{
+
+//   &:extend( .moduletable_blog .description);
+
+// }
+
+
+// .single_blog_post .cck-image-box img{
+//   width: 100%;
+// }
+
+// .imgblogcenter>a{
+// 	padding-left: 0  !important ;
+// 	padding-right: 0  !important ;
+// 	padding-top: 0  !important ;
+// }
+
+.moduletable_sidebar_blog_categories,
+.moduletable_sidebar_last_posts{
+
+	.cck-body a{
+	 	color: @mainColor;
+	 }
+}
+
+.cck-body {
+
+	button,  
+	a.button, 
+	input[type="button"],
+	input[type="reset"], 
+	input[type="submit"]{
+		border-radius: 0;
+	}
+
+	h5{
+		text-transform: uppercase;
+	}
+
+	 // input[type="button"]:active, 
+	 // input[type="button"]:focus{
+	 // 	outline: none;
+	 // }
+
+	 
+
+	.post_for_all_post{
+		height: 100%;
+	}
+
+	.all_posts_title{
+		.text_cut;
+		white-space: nowrap;
+		display: block;
+	}
+
+		// .datecenter{
+		// 	text-align: right;
+		// }
+
+	.location-address-block,
+	.inst_for_all_inst_hours{
+		.text_cut;
+		white-space: nowrap;
+		display: block;
+	}
+
+	.featured_houses{
+		
+	}
+}
+
+@media (max-width: 768px) {
+
+	.cck-body{
+
+		.all_posts_title,
+		.post_for_all_post,
+		.datecenter{
+		text-align: center;
+		}
+
+
+	}
+	
+}
+
+.cck-body{
+
+	// .raitingbox img ,
+	// .rev_rating img{
+	// 	height: 30px;
+	// 	width: auto;
+	// }
+
+	.rent_request_wrapper img{
+		width: auto;
+	}
+}
+
+
+
+.blog_post{
+	width: 66%;
+	margin: auto;
+	} 
+
+
+
+@media (max-width: 768px) {
+
+	.blog_post{
+		width: 100%;
+		margin: auto;
+
+
+		.datecenter{
+			text-align: center;
+		}
+	} 
+
+	.cck-body{
+
+		.titlecenter{
+		text-align: center;
+		}
+
+		.all_posts_title,
+		.post_for_all_post{
+		text-align: center;
+		}
+
+	}
+	
+}
+
+.cat_instance_for_all_cat a {
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.post_for_all_post a{
+	color: #fff;
+}

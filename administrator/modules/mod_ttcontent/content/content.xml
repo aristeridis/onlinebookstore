@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitecontent>
+  <menu>
+    <menu_item>
+      <menu_item_title>Home</menu_item_title>
+      <menu_item_path>home</menu_item_path>
+      <menu_item_id>home</menu_item_id>
+      <menu_item_articlename>Home</menu_item_articlename>
+      <menu_item_articletype>article</menu_item_articletype>
+      <menu_item_slug>home</menu_item_slug>
+      <menu_item_status>1</menu_item_status>
+    </menu_item>
+    <menu_item>
+      <menu_item_title>About Us</menu_item_title>
+      <menu_item_path>about us</menu_item_path>
+      <menu_item_id>about-us</menu_item_id>
+      <menu_item_articlename>About Us</menu_item_articlename>
+      <menu_item_articletype>article</menu_item_articletype>
+      <menu_item_slug>about-us</menu_item_slug>
+      <menu_item_status>1</menu_item_status>
+    </menu_item>
+    <menu_item>
+      <menu_item_title>Services</menu_item_title>
+      <menu_item_path>services</menu_item_path>
+      <menu_item_id>services</menu_item_id>
+      <menu_item_articlename>Services</menu_item_articlename>
+      <menu_item_articletype>article</menu_item_articletype>
+      <menu_item_slug>services</menu_item_slug>
+      <menu_item_status>1</menu_item_status>
+    </menu_item>
+    <menu_item>
+      <menu_item_title>Contact</menu_item_title>
+      <menu_item_path>contact</menu_item_path>
+      <menu_item_id>Contact</menu_item_id>
+      <menu_item_articlename>Contact</menu_item_articlename>
+      <menu_item_articletype>article</menu_item_articletype>
+      <menu_item_slug>contact</menu_item_slug>
+      <menu_item_status>1</menu_item_status>
+    </menu_item>
+    <menu_item>
+      <menu_item_title>Blog</menu_item_title>
+      <menu_item_path>blog</menu_item_path>
+      <menu_item_id>Blog</menu_item_id>
+      <menu_item_articlename>Blog</menu_item_articlename>
+      <menu_item_articletype>category</menu_item_articletype>
+      <menu_item_slug>blog</menu_item_slug>
+      <menu_item_status>0</menu_item_status>
+    </menu_item>
+  </menu>
+  <pages>
+    <content>
+      <meta_ID>tt_page1</meta_ID>
+      <page_title>Home</page_title>
+      <alias>home</alias>
+      <page_name>Home</page_name>
+      <page_header_id>home</page_header_id>
+      <state>1</state>
+      <featured>1</featured>
+      <created>08/09/2021 00:00:00</created>
+      <created_by_alias>SuperUser</created_by_alias>
+      <page_title_visibility>false</page_title_visibility>
+      <introtext><![CDATA[<div class="ttr_home_html_row0 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column00">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; "><span style="font-weight:600;color:rgba(0,0,0,1);">WHY CHOOSE US</span></p><p style="text-align:Center; display:block; line-height:6.5em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:4.286em;">We Have Offer To You</span></p><p style="text-align:Center; display:block; "><span style="font-family:'Montserrat','Arial';color:rgba(157,157,157,1);">Choose started sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt</span></p><p style="text-align:Center; display:block; "><span style="font-family:'Montserrat','Arial';color:rgba(157,157,157,1);"> ut labore et dolore adipiscing elit sed do eiusr adipiscing elitatur liqua </span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column01">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:0px 0px 10px 0px;text-align:Center; display:block; line-height:2em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:853px;max-width:1280px;margin:0px 0px 20px 0px;" src="<?php echo $template_path; ?>/images/youngcouplebuyingcarcarshowroom1.jpg" alt="zx" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:1.286em;">Delivering A Great Customer Experience</span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; line-height:1.79em;"><span><a href="https://templatetoaster.com" target="_self" class="btn btn-md btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column02">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:2em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:843px;max-width:1280px;margin:0px 0px 20px 0px;" src="<?php echo $template_path; ?>/images/businesspeopleworkingfinanceaccountinganalyzefinanci1.jpg" alt="zxzX" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:1.286em;">Refinancing Your Home No Doubt About Anything</span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; line-height:1.07em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span><a href="https://templatetoaster.com" target="_self" class="btn btn-md btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column03">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:2em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:853px;max-width:1280px;margin:0px 0px 20px 0px;" src="<?php echo $template_path; ?>/images/workplaceresultsprofessionalreportaccountingduring1.jpg" alt="xz" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:1.286em;">Have A Superior Power To Unlock The Today’s Rate</span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; "><span style="font-family:'Open Sans','Arial';font-style:normal;font-weight:400;font-size:1em;color:rgba(51,51,51,1);"><span><a href="https://templatetoaster.com" target="_self" class="btn btn-md btn-default">Read More</a></span></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_home_html_row1 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column10">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; "><span style="font-weight:600;">GET INTRODUCED</span></p><p style="text-align:Center; display:block; line-height:5em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:4.286em;">Our Mission Is To Become</span></p><p style="text-align:Center; display:block; line-height:5em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:4.286em;"> The Best Mortgage</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column11">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:600px;max-width:899.627329192547px;margin:0px 0px 0px 0px;" src="<?php echo $template_path; ?>/images/headway5QgIuuBxKwMunsplash1.jpg" alt="hj" /></span></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_home_html_row2 row" >
+<div class="post_column col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column20">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:800;font-size:5.143em;color:rgba(0,0,0,1);">20</span></p><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:500;color:rgba(0,0,0,1);">YEARS OF EXPERIENCE</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column21">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:800;font-size:5.143em;color:rgba(0,0,0,1);">98</span></p><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:500;color:rgba(0,0,0,1);">VOLUNTEERS PARTICIPATED</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column22">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:800;font-size:5.143em;color:rgba(0,0,0,1);">56</span></p><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:500;color:rgba(0,0,0,1);">VETERAN HOMES COMPLETED</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column23">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:800;font-size:5.143em;color:rgba(0,0,0,1);">90</span></p><p style="text-align:Center; display:block; line-height:2.07em;"><span style="font-family:'Montserrat','Arial';font-weight:500;color:rgba(0,0,0,1);">CUSTOMER WORLDWIDE</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_home_html_row3 row" >
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column30">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:2.75em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;color:rgba(255,255,255,1);">Mortgage Pre-Approval</span></p><p style="text-align:Center; display:block; line-height:1.79em;"><span style="font-family:'Montserrat','Arial';font-weight:500;font-size:1.143em;color:rgba(255,255,255,1);">You Can Grow In Your New Homeit Amet Seeturlit Sed Ew Homeew Homedolor</span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; "><span><a href="https://templatetoaster.com" target="_self" class="btn btn-sm btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column31">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:2.75em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;color:rgba(255,255,255,1);">House Shopping</span></p><p style="text-align:Center; display:block; line-height:1.79em;"><span style="font-family:'Montserrat','Arial';font-weight:500;font-size:1.143em;color:rgba(255,255,255,1);">You Can Grow In Your New Homeit Amet Seeturlit Sed Ew Homeew Homedolor</span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; "><span><a href="https://templatetoaster.com" target="_self" class="btn btn-sm btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column32">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:2.75em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;color:rgba(255,255,255,1);">Loan Application</span></p><p style="text-align:Center; display:block; line-height:1.79em;"><span style="font-family:'Montserrat','Arial';font-weight:500;font-size:1.143em;color:rgba(255,255,255,1);">You Can Grow In Your New Homeit Amet Seeturlit Sed Ew Homeew Homedolor</span><span style="font-family:'Montserrat','Arial';font-size:1.143em;color:rgba(255,255,255,1);"> </span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; "><span><a href="https://templatetoaster.com" target="_self" class="btn btn-sm btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_home_html_row4 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column40">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; "><span style="font-weight:600;">WHAT’S THE BEST</span></p><p style="margin:5px 0px 20px 0px;text-align:Center; display:block; "><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:4.286em;">Mortgage Programs</span></p><p style="text-align:Center; display:block; "><span style="font-family:'Montserrat','Arial';color:rgba(157,157,157,1);">Experinces started sit amet consectetur adipiscing elit sed do eiusmod tempor</span></p><p style="text-align:Center; display:block; "><span style="font-family:'Montserrat','Arial';color:rgba(157,157,157,1);"> incididunt ut labore et dolore adipiscing elit sed do eiusr adipiscing elitatur liqua</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column41">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;line-height:3.93em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:2.571em;">Purchase New House</span></p><p style="margin:5px 0px 20px 0px;"><span style="font-family:'Montserrat','Arial';">Our plan dolor sit amet conseetur diisci velit sed quiLorem ipsum dolor sit ame consectetur adipisicing elit</span></p><p style="line-height:2.07em;"><span style="font-weight:700;">Respect for all people</span></p><p style="line-height:2.07em;"><span style="font-weight:700;">Excellence in everything we do</span></p><p style="line-height:2.07em;"><span style="font-weight:700;">Truthfulness in our business</span></p><p style="line-height:2.07em;"><span style="font-weight:700;">Unquestionable integrity</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column42">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p /></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_home_html_row5 row" >
+<div class="post_column col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column50">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p /></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column51">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p><span style="font-weight:600;color:rgba(255,255,255,1);">FUN FACT</span></p><p style="line-height:5.21em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:3.429em;color:rgba(255,255,255,1);">There Is Some Fact That You Know</span></p><p><span style="color:rgba(157,157,157,1);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p><p style="margin:30px 0px 5px 0px;line-height:2em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.286em;color:rgba(255,255,255,1);">Loan Officer Assistant Do?</span></p><p style="line-height:1.07em;"><span style="color:rgba(157,157,157,1);">When You Own Your Own Homet</span></p><p style="line-height:1.07em;"><span style="color:rgba(157,157,157,1);">Seeturlit Sed Dolor Sit Am</span></p><p style="margin:20px 0px 5px 0px;line-height:2em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.286em;color:rgba(255,255,255,1);">RMS is Working Harder</span></p><p style="line-height:1.07em;"><span style="color:rgba(157,157,157,1);">You can grow in your new homeit</span></p><p style="line-height:1.07em;"><span style="color:rgba(157,157,157,1);">amet seeturlit sed dolor sit </span></p><p style="margin:20px 0px 5px 0px;line-height:1.07em;"><span><a href="https://templatetoaster.com" target="_self" class="btn btn-md btn-default">KNOWLEDGE CENTER</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_home_html_row6 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column60">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:6.5em;"><span style="font-family:'Montserrat','Poppins','Arial';font-weight:700;font-size:4.286em;color:rgba(0,0,0,1);">Team Of Professionals</span></p><p style="margin:10px 0px 5px 0px;text-align:Center; display:block; font-family:'Arial';"><span style="font-family:'Montserrat','Poppins','Arial';font-weight:300;color:rgba(105,105,105,1);">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span></p><p style="margin:5px 0px 5px 0px;text-align:Center; display:block; font-family:'Arial';"><span style="font-family:'Montserrat','Poppins','Arial';font-weight:300;color:rgba(105,105,105,1);">incididunt ut labore et dolore magna aliqua.</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column61">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.21em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 20px 0px;"><span><img class="ttr_uniform" style="max-height:332px;max-width:250px;" src="<?php echo $template_path; ?>/images/432812.png" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;">John</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column62">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.21em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 20px 0px;"><span><img class="ttr_uniform" style="max-height:332.5px;max-width:250px;" src="<?php echo $template_path; ?>/images/442812.png" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;">A</span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;">my</span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;"> S</span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;">cott</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_home_html_column63">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.21em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 20px 0px;"><span><img class="ttr_uniform" style="max-height:332.5px;max-width:250px;" src="<?php echo $template_path; ?>/images/452812.png" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;">Kenny Martinez </span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+]]></introtext>
+    </content>
+    <content>
+      <meta_ID>tt_page2</meta_ID>
+      <page_title>Contact</page_title>
+      <alias>contact</alias>
+      <page_name>Contact</page_name>
+      <page_header_id>contact</page_header_id>
+      <state>1</state>
+      <featured>1</featured>
+      <created>08/09/2021 00:00:00</created>
+      <created_by_alias>SuperUser</created_by_alias>
+      <page_title_visibility>false</page_title_visibility>
+      <introtext><![CDATA[<div class="ttr_contact_html_row0 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_contact_html_column00">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:5.21em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:3.429em;color:rgba(0,0,0,1);">Contact Us</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_contact_html_row1 row" >
+<div class="post_column col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_contact_html_column10">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:2px 0px 0px 0px;"><span style="font-weight:700;font-size:1.571em;">Address:</span></p><br style="margin:2px 0px 0px 8px;" /><p style="margin:2px 0px 0px 0px;line-height:2.07em;"><span style="font-size:1em;">123 ABC Ave Street View #456 XYZ</span></p><p style="margin:2px 0px 0px 0px;line-height:2.07em;"><span style="font-size:1em;">New York City,</span><span style="font-size:1em;"> </span><span style="font-size:1em;">NY 100005, USA</span></p><p style="margin:2px 0px 0px 0px;line-height:2.07em;"><span style="font-weight:700;font-size:1em;">PHONES:</span><span style="font-size:1em;"> (800) 123-4567-890; (800) 123-0046-7890</span></p><p style="margin:2px 0px 0px 0px;line-height:2.07em;"><br style="font-size:1em;" /><span style="font-weight:700;font-size:1em;">WE ARE OPEN:</span><span style="font-size:1em;"> Mon-Fri: 10 am - 8 pm</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_contact_html_column11">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 20px 0px;"><span style="font-weight:700;font-size:1.571em;">Let's Get in Touch</span></p><p><div style="width:100%;" xmlns="contactformparentdiv"><div class="contactformdiv" style="margin:0px 0px 0px 0px;">{loadmoduleid c3e08dfb-9fe5-44e8-9639-4876ff99e64c}</div></div></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+]]></introtext>
+      <contactforms><contactform id="c3e08dfb-9fe5-44e8-9639-4876ff99e64c" filesize="0" BrowseButtonVisibility="Visible" msg_name="Message"><ListViewItem ContentStringFormat="NoValidation" IsTabStop="False" x:Uid="NoValidation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"><ListViewItem.Tag><ContactFormFieldTags Tag="{x:Null}" Name="Name" xmlns:ttch="clr-namespace:TemplateToaster.Core.Helpers;assembly=TemplateToaster" /></ListViewItem.Tag>Name</ListViewItem><ListViewItem ContentStringFormat="Email" IsTabStop="False" x:Uid="Email" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"><ListViewItem.Tag><ContactFormFieldTags Tag="Mandate" Name="Email" xmlns:ttch="clr-namespace:TemplateToaster.Core.Helpers;assembly=TemplateToaster" /></ListViewItem.Tag>Email</ListViewItem><ListViewItem ContentStringFormat="NoValidation" IsTabStop="False" x:Uid="NoValidation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"><ListViewItem.Tag><ContactFormFieldTags Tag="{x:Null}" Name="Subject" xmlns:ttch="clr-namespace:TemplateToaster.Core.Helpers;assembly=TemplateToaster" /></ListViewItem.Tag>Subject</ListViewItem></contactform></contactforms>
+    </content>
+    <content>
+      <meta_ID>tt_page3</meta_ID>
+      <page_title>about-us</page_title>
+      <alias>about-us</alias>
+      <page_name>About Us</page_name>
+      <page_header_id>about-us</page_header_id>
+      <state>1</state>
+      <featured>1</featured>
+      <created>08/09/2021 00:00:00</created>
+      <created_by_alias>SuperUser</created_by_alias>
+      <page_title_visibility>false</page_title_visibility>
+      <introtext><![CDATA[<div class="ttr_about-us_html_row0 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column00">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:5.21em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:3.429em;color:rgba(0,0,0,1);">About Us</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_about-us_html_row1 row" >
+<div class="post_column col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column10">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 30px 0px;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:2.571em;">About Motgage Company</span></p><p style="margin:20px 0px 5px 0px;text-align:Left; display:block; line-height:2.36em;font-family:'Arial';"><span style="font-family:'Open Sans','Arial';font-weight:300;font-size:1.143em;color:rgba(52,52,52,1);">Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem.Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet </span></p><p style="margin:20px 0px 5px 0px;text-align:Left; display:block; line-height:1.57em;font-family:'Arial';"><span><a href="<?php echo get_url('home');?>" target="_self" class="btn btn-md btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column11">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:400px;max-width:700px;" src="<?php echo $template_path; ?>/images/411.jpg" alt="Marketo Digital Agency for every Business" /></span></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_about-us_html_row2 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column20">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:6.5em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:4.286em;">Team Of Professionals</span></p><p style="margin:10px 0px 5px 0px;text-align:Center; display:block; font-family:'Arial';"><span style="font-family:'Open Sans','Arial';color:rgba(157,157,157,1);">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor</span></p><p style="margin:10px 0px 5px 0px;text-align:Center; display:block; font-family:'Arial';"><span style="font-family:'Open Sans','Arial';color:rgba(157,157,157,1);">Incididunt Ut Labore Et Dolore Magna Aliqua.</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column21">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.75em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 20px 0px;"><span><img class="ttr_uniform" style="max-height:332.5px;max-width:250px;" src="<?php echo $template_path; ?>/images/431.png" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;">John</span></p><p style="text-align:Center; display:block; line-height:2.21em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;color:rgba(0,0,0,1);">(Manager)</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column22">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.75em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 20px 0px;"><span><img class="ttr_uniform" style="max-height:332.5px;max-width:250px;" src="<?php echo $template_path; ?>/images/441.png" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;">A</span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;">my</span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;"> S</span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;">cott</span></p><p style="text-align:Center; display:block; line-height:2.21em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;color:rgba(0,0,0,1);">(Loan Officer)</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_about-us_html_column23">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:2.75em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 20px 0px;"><span><img class="ttr_uniform" style="max-height:332.5px;max-width:250px;" src="<?php echo $template_path; ?>/images/451.png" /></span></span><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.786em;">Kenny Martinez</span></p><p style="text-align:Center; display:block; line-height:2.21em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.429em;color:rgba(0,0,0,1);">(Area Officer) </span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+]]></introtext>
+    </content>
+    <content>
+      <meta_ID>tt_page4</meta_ID>
+      <page_title>services</page_title>
+      <alias>services</alias>
+      <page_name>Services</page_name>
+      <page_header_id>services</page_header_id>
+      <state>1</state>
+      <featured>1</featured>
+      <created>08/09/2021 00:00:00</created>
+      <created_by_alias>SuperUser</created_by_alias>
+      <page_title_visibility>false</page_title_visibility>
+      <introtext><![CDATA[<div class="ttr_services_html_row0 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column00">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:5.21em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:3.429em;color:rgba(0,0,0,1);">Services</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_services_html_row1 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column10">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:6.5em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:4.286em;color:rgba(0,0,0,1);">Mortgage Programs</span></p><p style="margin:10px 0px 5px 0px;text-align:Center; display:block; "><span style="color:rgba(105,105,105,1);">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span></p><p style="text-align:Center; display:block; "><span style="color:rgba(105,105,105,1);">incididunt ut labore et dolore magna aliqua.</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column11">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:1.57em;"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:80px;max-width:80px;margin:0px 0px 20px 0px;" src="<?php echo $template_path; ?>/images/home3.png" alt="img" /></span></span><span style="font-weight:700;font-size:1.429em;">Purchase New House</span></p><p style="text-align:Center; display:block; line-height:2.07em;"><span style="color:rgba(101,101,101,1);">Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem.</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column12">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:1.57em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;"><span style="text-align:Center; display:block; "><img class="ttr_uniform" style="max-height:80px;max-width:80px;margin:0px 0px 20px 0px;" src="<?php echo $template_path; ?>/images/loan1.png" alt="img" /></span></span><span style="font-weight:700;font-size:1.429em;">Apply For Loan</span></p><p style="margin:5px 0px 5px 0px;text-align:Center; display:block; line-height:2.07em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span style="color:rgba(101,101,101,1);">Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem.</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column13">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="margin:5px 0px 10px 0px;text-align:Center; display:block; line-height:1.57em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:80px;max-width:80px;margin:0px 0px 20px 0px;" src="<?php echo $template_path; ?>/images/refinancing.png" alt="img" /></span></span><span style="font-weight:700;font-size:1.429em;">Refinancing Your Home</span></p><p style="margin:5px 0px 5px 0px;text-align:Center; display:block; line-height:2.07em;font-family:'Open Sans','Arial';color:rgba(51,51,51,1);"><span style="color:rgba(101,101,101,1);">Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem.</span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_services_html_row2 row" >
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column20">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p style="text-align:Center; display:block; line-height:5.21em;"><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:3.429em;color:rgba(255,255,255,1);">See How to Qualify and Get Your Loan Easily Today</span></p><p style="margin:10px 0px 5px 0px;text-align:Center; display:block; line-height:2em;font-family:'Arial';"><span style="font-family:'Arial';font-size:1.286em;color:rgba(243,243,243,1);">Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.Praesent mattis, massa</span><span style="font-family:'Arial';font-size:1.286em;color:rgba(243,243,243,1);">.</span></p><p style="margin:20px 0px 5px 0px;text-align:Center; display:block; line-height:1.57em;font-family:'Arial';"><span><a href="<?php echo get_url('home');?>" target="_self" class="btn btn-md btn-default">Read More</a></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column21">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><br /></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+<div class="ttr_services_html_row3 row" >
+<div class="post_column col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column30">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p><span class="ttr_image" style="float:none;display:block;overflow:hidden;text-align:center;margin:0px 0px 0px 0px;"><span><img class="ttr_uniform" style="max-height:854px;max-width:1280px;margin:0px 0px 0px 0px;" src="<?php echo $template_path; ?>/images/blurredcoupleholdingtoyhouse.jpg" alt="zxz" /></span></span></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+<div class="post_column col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+<div class="ttr_services_html_column31">
+<div class="margin_collapsetop"></div>
+<div class="html_content"><p><span style="font-family:'Montserrat','Arial';font-weight:700;font-size:2.571em;">Purchase New House</span></p><p style="margin:20px 0px 20px 0px;text-align:Left; display:block; line-height:2.07em;font-family:'Arial';"><span style="font-family:'Open Sans','Arial';color:rgba(105,105,105,1);">Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.Maecenas ornare tortor.</span><span style="font-family:'Open Sans','Arial';color:rgba(105,105,105,1);"> </span><span style="font-family:'Open Sans','Arial';color:rgba(105,105,105,1);">Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam.</span></p><p style="margin:20px 0px 5px 0px;text-align:Left; display:block; line-height:1.57em;font-family:'Arial';"><span><a href="<?php echo get_url('home');?>" target="_self" class="btn btn-md btn-default">Read More</a></span></p><p><br style="font-weight:700;font-size:1.857em;color:rgba(52,52,52,1);" /></p></div>
+<div class="margin_collapsetop"></div>
+<div style="clear:both;width:0px;"></div>
+</div>
+</div>
+<div class=" visible-lg-block d-xl-block d-lg-block visible-md-block d-md-block visible-sm-block d-sm-block visible-xs-block d-block" style="clear: both;width:0px;"></div>
+</div>
+]]></introtext>
+    </content>
+  </pages>
+  <sidebars />
+  <footers>
+    <footer name="abc0">
+      <block name="footercellcolumn0" tt_blockID="footer_cell0" title="footertext1">
+        <content><![CDATA[<div class="html_content"><p style="line-height:2.43em;"><span style="font-family:'Montserrat','Arial';font-weight:600;font-size:1.571em;color:rgba(243,243,243,1);">About :-</span></p><p style="margin:20px 0px 5px 0px;line-height:1.77em;"><span style="font-family:'Open Sans','Arial';color:rgba(225,225,225,1);">Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo</span><span style="font-family:'Open Sans','Arial';color:rgba(225,225,225,1);">.</span></p></div>]]></content>
+        <widget_pages>
+          <widget_page>home</widget_page>
+          <widget_page>contact</widget_page>
+          <widget_page>about-us</widget_page>
+          <widget_page>services</widget_page>
+        </widget_pages>
+      </block>
+    </footer>
+    <footer name="abc1">
+      <block name="footercellcolumn1" tt_blockID="footer_cell1" title="footertext2">
+        <content><![CDATA[<div class="html_content"><p style="line-height:2.43em;"><span style="font-weight:600;font-size:1.571em;color:rgba(243,243,243,1);">Services :-</span></p><p style="margin:20px 0px 5px 0px;line-height:1.77em;"><span style="color:rgba(243,243,243,1);">Business Loan</span></p><p style="line-height:1.77em;"><span style="color:rgba(243,243,243,1);">Home Loan</span></p><p style="line-height:1.77em;"><span style="color:rgba(243,243,243,1);">Corporate Loan</span></p><p style="line-height:1.77em;"><span style="color:rgba(243,243,243,1);">Education Loan</span></p><p style="line-height:1.77em;"><span style="color:rgba(243,243,243,1);">Personal Loan</span></p></div>]]></content>
+        <widget_pages>
+          <widget_page>home</widget_page>
+          <widget_page>contact</widget_page>
+          <widget_page>about-us</widget_page>
+          <widget_page>services</widget_page>
+        </widget_pages>
+      </block>
+    </footer>
+    <footer name="abc2">
+      <block name="footercellcolumn2" tt_blockID="footer_cell2" title="footertext3">
+        <content><![CDATA[<div class="html_content"><p style="line-height:2.43em;"><span style="font-weight:600;font-size:1.571em;color:rgba(243,243,243,1);">Pages :-</span></p><p style="margin:20px 0px 5px 0px;line-height:1.57em;"><a href="<?php echo get_url('home');?>" target="_self" class="tt_link" href="<?php echo get_url('home');?>" class="tt_link" target="_self"><span style="color:rgba(243,243,243,1);">Home</span></a></p><p style="margin:0px 0px 5px 0px;line-height:1.57em;"><a href="<?php echo get_url('about-us');?>" target="_self" class="tt_link" href="<?php echo get_url('about-us');?>" class="tt_link" target="_self"><span style="color:rgba(243,243,243,1);">About</span></a></p><p style="margin:0px 0px 5px 0px;line-height:1.57em;"><a href="<?php echo get_url('services');?>" target="_self" class="tt_link" href="<?php echo get_url('services');?>" class="tt_link" target="_self"><span style="color:rgba(243,243,243,1);">Services</span></a></p><p style="margin:0px 0px 5px 0px;line-height:1.57em;"><a href="<?php echo get_url('contact');?>" target="_self" class="tt_link" href="<?php echo get_url('contact');?>" class="tt_link" target="_self"><span style="color:rgba(225,225,225,1);">Contact</span></a></p><p style="margin:0px 0px 5px 0px;line-height:1.57em;"><span style="color:rgba(225,225,225,1);">Blog</span></p></div>]]></content>
+        <widget_pages>
+          <widget_page>home</widget_page>
+          <widget_page>contact</widget_page>
+          <widget_page>about-us</widget_page>
+          <widget_page>services</widget_page>
+        </widget_pages>
+      </block>
+    </footer>
+    <footer name="abc3">
+      <block name="footercellcolumn3" tt_blockID="footer_cell3" title="footertext4">
+        <content><![CDATA[<div class="html_content"><p style="line-height:2.43em;"><span style="font-weight:600;font-size:1.571em;color:rgba(243,243,243,1);">Contact :-</span></p><p style="margin:20px 0px 5px 0px;line-height:1.77em;"><span style="color:rgba(225,225,225,1);">You can contact or visit us during working time.</span></p><p style="margin:0px 0px 5px 0px;line-height:1.77em;"><span style="color:rgba(225,225,225,1);">Phone :-1234 - 5678 - 9012</span></p><p style="margin:0px 0px 5px 0px;line-height:1.77em;"><span style="color:rgba(225,225,225,1);">Email :-support@</span><span style="color:rgba(225,225,225,1);">marketo</span><span style="color:rgba(225,225,225,1);">.com</span></p><p style="margin:0px 0px 5px 0px;line-height:1.77em;"><span style="color:rgba(225,225,225,1);">Web :-www.</span><span style="color:rgba(225,225,225,1);">marketo</span><span style="color:rgba(225,225,225,1);">.com</span></p></div>]]></content>
+        <widget_pages>
+          <widget_page>home</widget_page>
+          <widget_page>contact</widget_page>
+          <widget_page>about-us</widget_page>
+          <widget_page>services</widget_page>
+        </widget_pages>
+      </block>
+    </footer>
+  </footers>
+  <Shapes>
+    <headershapes />
+    <slideshowshapes />
+    <menushapes />
+    <footershapes />
+  </Shapes>
+</sitecontent>

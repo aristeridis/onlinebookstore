@@ -1,0 +1,81 @@
+.header{
+    background: @colorWhite;
+    border-bottom: 1px solid @colorBorder;
+    margin: 0;
+    width: 100%;
+    .login-row {
+        background: @colorLine;
+        padding: 15px 0 0;
+        margin: 0!important;
+        text-align: center;
+        .input-prepend {
+            display: inline-block;
+            margin-bottom: 0;
+            .input-small {
+                .border(1px #63C8C8);
+                padding: 5px;
+                height: 30px;
+                box-shadow: none;
+                border-radius: 0;
+                box-sizing: border-box;
+                margin: 0 10px 5px 0;
+                font-size: 12px;
+                width: 162px;
+            }
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            li {
+                display: inline-block;
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                a{
+                    font-size: 12px;
+                    color: #fff;
+                    &:hover {
+                        color: @colorTitle;
+                    }
+                }
+            }
+        }
+        button[type="submit"], input[type="submit"] {
+            .input-reverse;
+            vertical-align: top;
+            padding: 4px 12px !important;
+            box-shadow: none;
+            width: 80px;
+        }
+    }
+    #logo{
+        margin:10px 0;
+        border: none;
+        position: relative;
+        z-index: 1;
+        img{
+            border: none;
+            position: relative;
+            z-index: 1;
+        }
+        @media (max-width: 767px){
+            text-align: center;
+            padding: 10px 0 20px;
+        }
+    }
+    .opening_times_title{
+        color:@colorGray;
+        font-size: 20px;
+        margin: 0 0 2px 0;
+    }
+    .ot_desc{
+        font-size: 12px;
+        line-height: 14px;
+        color:@colorGray;
+        margin: 0;
+    }
+}
+.navbar-collapse.in {
+    overflow-y: visible;
+}

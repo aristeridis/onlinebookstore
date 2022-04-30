@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.0" method="upgrade">
+  <name>This is package Installation</name>
+  <packagename>tt_content</packagename>
+  <version>1.0</version>
+  <author>TemplateToaster</author>
+  <scriptfile>pkg_tt_content.script.php</scriptfile>
+  <files folder="source">
+    <file type="template" id="tt_content" client="site">motgagecompany-j4</file>
+    <file type="module" id="tt_content" client="administrator">mod_ttcontent</file>
+    <file type="module" id="tt_content">mod_jdsimplecontactform_v1.3</file>
+    <file type="plugin" id="tt_content" client="administrator">ttmenustyle</file>
+  </files>
+</extension>

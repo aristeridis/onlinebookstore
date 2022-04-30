@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="ttmenustyle" label="PLG_CONTENT_TTMENUSTYLE_FIELDSET_LABEL">
+			<field
+				name="module_style"
+				type="list"
+				default="tt_default"
+				label="PLG_CONTENT_TTMENUSTYLE_OPTION"
+				description="Set Menu Text Color">
+				<option value="custom_style">PLG_CONTENT_TTMENUSTYLE_OPTION1</option>
+				<option value="tt_default">PLG_CONTENT_TTMENUSTYLE_OPTION2</option>
+			</field>
+			<field
+				name="active_color"
+				type="color"
+				default="#333333"
+				label="PLG_CONTENT_TTMENUSTYLE_ACTIVE_COLOR"
+				description="Change The Text Color Of Active Link"
+				showon="module_style:custom_style"
+			/>
+			<field
+				name="hover_color"
+				type="color"
+				default="#333333"
+				label="PLG_CONTENT_TTMENUSTYLE_HOVER_COLOR"
+				description="Change The Text Color Of Hover Link"
+				showon="module_style:custom_style"
+			/>
+			<field
+				name="normal_color"
+				type="color"
+				default="#333333"
+				label="PLG_CONTENT_TTMENUSTYLE_NORMAL_COLOR"
+				description="Change The Text Color Of Normal Link"
+				showon="module_style:custom_style"
+			/>
+		</fieldset>
+	</fields>
+</form>

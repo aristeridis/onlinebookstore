@@ -1,0 +1,257 @@
+@colorWhite: #ffffff;
+@colorBlack: #000000;
+
+@mainColor: #F55A4E;
+@textColor: #888888;
+@colorGray:#eeeeee;
+@colorTitle:#333333;
+@colorText:#888888;
+@colorBorder:#EAEAEA;
+@colorBgFooter:#fefefe;
+@colorTopBorderFooter:#EAEAEA;
+@colorBorderMenu:#cecece;
+
+@errorboxTitleh1:#333333;
+@errorboxTitleh3:#787878;
+
+@rgbaWhite: rgba(255, 255, 255, 0.05);
+@rgbaBlack: rgba(0, 0, 0, 0.2);
+
+@colorSuperLigthGray:#fafafa;
+@colorLigthGray:#92999E;
+
+@colorLine:#63C8C8;
+
+
+a:focus, a:active{
+  color:@colorTitle;
+  text-decoration: none;
+  outline: none;
+}
+.border(@unit:1px){
+    border:@unit solid;
+}
+.borderRadius(@radius:5px){
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+.transition(@time:0.3s){
+    -webkit-transition: all @time;
+    -moz-transition: all @time;
+    -o-transition: all @time;
+    transition: all @time;
+}
+.transform(@scale:1.15){
+  -moz-transform:scale (@scale);
+  -webkit-transform:scale (@scale);
+  -o-transform:scale (@scale);
+  transform:scale (@scale);
+}
+
+.opacity(@alpha: 0.5) {
+    @ms-alpha : @alpha*100;
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=@ms-alpha);
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=@ms-alpha);
+    // TODO: fix me
+    //filter:~`"alpha(opacity="+@ms-alpha+")"`;
+    -moz-opacity: @alpha;
+    -khtml-opacity: @alpha;
+    opacity: @alpha;
+}
+.box-shadow(@string: 1px 1px 1px @colorBlack) {
+  -webkit-box-shadow: @string;
+  -moz-box-shadow: @string;
+  -o-box-shadow: @string;
+  box-shadow: @string;
+}
+.text-shadow(@string: 1px 1px 1px @colorBlack) {
+  -webkit-text-shadow: @string;
+  -moz-text-shadow: @string;
+  -o-text-shadow: @string;
+  text-shadow: @string;
+}
+.nowrap {
+white-space: nowrap;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.text_cut{
+  .nowrap;
+}
+
+.input{
+  background: @mainColor;
+  .border(1px @mainColor);
+  color: @colorWhite;
+  text-transform: uppercase;
+  .text-shadow(-1px -1px 1px fade(@colorBlack, 18%))!important;
+  font-size: 14px;
+  border-radius: 0;
+  &:hover{
+    .transition;
+    background: @colorTitle;
+    color: @colorWhite!important;
+    .border(1px @colorTitle);
+}
+}
+.input-reverse {
+  background: @colorTitle;
+  .border(1px @colorTitle)!important;
+  color: @colorWhite;
+  text-transform: uppercase;
+  .text-shadow(-1px -1px 1px fade(@colorBlack, 18%))!important;
+  font-size: 14px;
+  border-radius: 0;
+  &:hover{
+    .transition;
+    background: @mainColor;
+    color: @colorWhite!important;
+    .border(1px @mainColor)!important;
+}
+}
+
+
+
+.row_set(@count: 3, @width_item: 32%){
+
+
+  @margin: (100% - ( @width_item * @count)) / (@count - 1 );
+  
+    width: @width_item  !important ;
+    margin-left: @margin ;
+    margin-right: 0px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+
+     &:nth-of-type( @{count}n +1) {
+      margin-left: 0px;
+    }
+
+    [dir="rtl"]  &{
+      margin-left: 0px ;
+      margin-right:@margin;
+
+       &:nth-of-type( @{count}n +1) {
+        margin-right: 0px;
+
+       }
+
+    }
+
+}
+
+// .buttom_theme(){
+
+//   background:  @mainColor !important;
+//   color: @colorWhite;
+//   text-transform: uppercase;
+//   .text-shadow(-1px -1px 1px fade(@colorBlack, 18%))!important;
+//   font-size: 14px;
+//   border-radius: 0;
+//   .border(1px @mainColor);
+
+//    &:hover{
+//     .transition;
+//     background: @mainColor;
+//     color: @colorWhite!important;
+//     .border(1px @mainColor)!important;
+// }
+
+// }
+
+
+
+.placeholder_hide(){
+
+&:focus {
+
+    &::-webkit-input-placeholder {
+    .opacity(0);}
+
+    &::-moz-placeholder          {
+    .opacity(0);}
+
+    &:-moz-placeholder   {
+    .opacity(0);}
+
+    &:-ms-input-placeholder      {
+     .opacity(0);}
+
+  }
+}
+
+
+ [type="text"],
+ [type="password"],
+ [type="email"],
+ textarea{
+
+  .placeholder_hide;
+ }
+
+ // - applies to: flex containers
+// flex-start | flex-end | center | space-between | space-around 
+.justify-content(@justify: flex-start) {
+  -webkit-justify-content: @justify;
+      -ms-justify-content: @justify;
+          justify-content: @justify;
+}
+
+.flex-display(@display: flex) {
+  display: ~"-webkit-@{display}";
+  display: ~"-ms-@{display}box"; // IE10 uses -ms-flexbox
+  display: ~"-ms-@{display}"; // IE11
+  display: @display;
+}
+
+// Flex Flow Direction
+// - applies to: flex containers
+// row | row-reverse | column | column-reverse
+.flex-direction(@direction: row) {
+  -webkit-flex-direction: @direction;
+      -ms-flex-direction: @direction;
+          flex-direction: @direction;
+}
+
+// Flex Line Wrapping
+// - applies to: flex containers
+// nowrap | wrap | wrap-reverse
+.flex-wrap(@wrap: wrap) {
+  -webkit-flex-wrap: @wrap;
+      -ms-flex-wrap: @wrap;
+          flex-wrap: @wrap;
+}
+
+// Packing Flex Lines
+// - applies to: multi-line flex containers
+// flex-start | flex-end | center | space-between | space-around | stretch 
+.align-content(@align: stretch) {
+  -webkit-align-content: @align;
+      -ms-align-content: @align;
+          align-content: @align;
+}
+
+// Cross-axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | baseline | stretch 
+.align-items(@align: stretch) {
+  -webkit-align-items: @align;
+      -ms-align-items: @align;
+          align-items: @align;
+}
+
+.clearfix(){
+
+  &:before,
+  &:after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
+

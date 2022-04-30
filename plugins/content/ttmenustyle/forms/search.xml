@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="basic">
+			<field
+				name="search_button_icon"
+				type="media"
+				label="PLG_CONTENT_TTMENUSTYLE_ICON"
+				description="PLG_CONTENT_TTMENUSTYLE_ICON_DESC"
+				showon="button:1[AND]imagebutton:1"
+			/>
+		</fieldset>
+	</fields>
+</form>

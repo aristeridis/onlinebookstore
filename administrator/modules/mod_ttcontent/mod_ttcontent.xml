@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="administrator" method="upgrade">
+  <name>Import Content</name>
+  <author>TemplateToaster</author>
+  <authorUrl>http://TemplateToaster.com</authorUrl>
+  <creationDate>8/9/2021 12:00:00 AM</creationDate>
+  <license>GNU</license>
+  <version>1.0</version>
+  <description>This module is a product of TemplateToaster to import content</description>
+  <files>
+    <folder>tmpl</folder>
+    <filename module="mod_ttcontent">mod_ttcontent.php</filename>
+    <filename>helper.php</filename>
+    <folder>content</folder>
+    <folder>images</folder>
+    <filename>content/imports.php</filename>
+  </files>
+</extension>

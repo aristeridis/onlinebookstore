@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2020 TTMENUSTYLE. All rights reserved.
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+-->
+<extension type="plugin" version="3.0" group="content" method="upgrade">
+	<name>PLG_CONTENT_TTMENUSTYLE</name>
+	<author></author>
+	<creationDate>August 2020</creationDate>
+	<copyright>Copyright (c) 2020 TTMENUSTYLE. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_TTMENUSTYLE_DESC</description>
+	<scriptfile>ttmenustyle.scriptfile.php</scriptfile>
+
+	<files>
+		<filename plugin="ttmenustyle">ttmenustyle.php</filename>
+		<filename>index.html</filename>
+		<folder>forms</folder>
+    <filename>forms/menu.xml</filename>
+	<filename>forms/search.xml</filename>
+	<filename>forms/advanced.xml</filename>
+	</files>
+
+	<languages folder="language">
+      <language tag="en-GB">en-GB/en-GB.plg_content_ttmenustyle.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_content_ttmenustyle.sys.ini</language>
+   </languages>
+</extension>
